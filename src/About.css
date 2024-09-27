@@ -1,0 +1,10 @@
+.about-us-page{
+    background: linear-gradient(rgba(0, 58, 102, 0.9), rgba(0, 58, 102, 0.8)), url('/public/img/about-us-page-img.jpg') !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: initial !important;
+    background-size: cover !important;
+}
+.team-member-image {
+    max-height: 600px; /* Set a fixed height for consistency */
+}

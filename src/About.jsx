@@ -1,10 +1,11 @@
 import React from "react";
+import './About.css';
 
 const About = () => {
     const teamMemberData = [
         {
           id: 1,
-          imgSrc: "img/person-1.jpg",
+          imgSrc: "img/puneet-team-member.jpg",
           name: "Puneet Othi (RCIC)",
           desc1: "Puneet Kaur Othi is the Director at VisaPrime Consultancy and also is a Regulated Canadian Immigration Consultant registered with ICCRC with membership ID R530311. She has completed the Immigration Consultant Diploma with Honours from Ashton College, carries certification from Canadian Course for Educational Agents and is a Commissioner of Oaths in and for Alberta.",
           desc2: "Puneet herself came as an international student to Canada; therefore, she understands the needs, requirements and hurdles of an immigrant very well. With a decade of hands-on experience, Puneet helps new clients understand their options for migrating to Canada and can be reached to discuss the service solutions available as per your criteria. She gives every client individual and personal attention to their immigration application needs. Leading a dedicated team of associates in Canada & India she strives to deliver the best timely results.",
@@ -14,7 +15,7 @@ const About = () => {
         },
         {
             id: 2,
-            imgSrc: "img/person-3.jpg",
+            imgSrc: "img/kulwinder-team-member.jpg",
             name: "Kulwinderjit Singh",
             desc1: "Our Managing Director – VisaPrime Immigration, Mr. Kulwinderjit Singh, is a mature, well educated, multi field experienced individual, for whom challenges are a passion. Being a UK resident previously and traveling to Canada every year, he has a vast experience in managing businesses in the UK and India.  He takes care of the document collection and consultancy operations in India. His core strengths incorporate a solution-oriented approach in his work and building strong and professional relationships with clients.",
             desc2: "His technical skills provide a stable setup in infrastructure which helps in prompt processing of applications and keeping the client information secured. He manages the IELTS Operations – Online & In-person classes along with assisting clients with their queries regarding Immigration to Canada as a student, worker or for Permanent Residency.",
@@ -24,7 +25,7 @@ const About = () => {
         },
         {
             id: 3,
-            imgSrc: "img/person-2.jpg",
+            imgSrc: "img/natasa-team-member.jpg",
             name: "Natasa Bizic",
             desc1: "One of our experienced consultants, Natasa Bizic, is originally from Serbia and brings a unique perspective to our team. With her years of experience working in an immigration firm, she has a deep understanding of the complexities of the immigration process.",
             desc2: "Through her experience, Natasa gained a vast knowledge of the immigration process, which inspired her to become an Immigration Consultant. She has completed the Immigration Consultant Diploma with Honours from Ashton College, and brings her expertise and personal experience to help our clients achieve their goals.  In addition to her work with our firm, Natasa also works with Service Canada.",
@@ -34,7 +35,7 @@ const About = () => {
         },
         {
             id: 4,
-            imgSrc: "img/person-4.jpg",
+            imgSrc: "img/ketan-team-member.jpg",
             name: "Ketan Khaira",
             desc1: "Ketanjit graduated from McMaster University and Humber College.His career path brought him to the exciting world of Oilsands engineering, wherein he gained an incredible amount of knowledge and insights over the years.With vast experience in managing employment agencies and construction firms in Toronto, world of entrepreneurship became his playground. From groundbreaking strategies to fostering strong client relationships, he has always believed in the power of connection and creativity.",
             desc2: "Ketan has been a vital part of the VisaPrime family since 2018, bringing his unique ideas to fuel our growth and success. Building lasting relationships is his forte, whether with new faces or long-term partners.",
@@ -45,7 +46,7 @@ const About = () => {
       ];
     return (
         <div>
-            <div className="container-fluid bg-breadcrumb">
+            <div className="container-fluid bg-breadcrumb about-us-page">
                 <div className="container text-center py-5" style={{maxWidth: "900px"}}>
                     <h3 className="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">About Us</h3>
                 </div>
@@ -56,10 +57,10 @@ const About = () => {
                         <div className="col-lg-6">
                             <div className="row gx-3 h-100">
                                 <div className="col-6 align-self-start">
-                                    <img className="img-fluid" src="img/about-1.jpg" />
+                                    <img className="img-fluid" src="img/about-us-img-2.jpg" />
                                 </div>
                                 <div className="col-6 align-self-end">
-                                    <img className="img-fluid" src="img/about-2.jpg" />
+                                    <img className="img-fluid" src="img/about-us-img-1.jpg" />
                                 </div>
                             </div>
                         </div>
@@ -278,7 +279,7 @@ const About = () => {
                                     <img src={member.imgSrc} className="img-fluid w-100 team-member-image" alt="Image"/>
                                 </div>
                             </div>
-                            <div className="col-xl-7" style={{paddingTop:"20px"}}>
+                            <div className="col-xl-7">
                                 <h5 className="display-6 mb-4">{member.name}</h5>
                                 <p className="mb-4 team-member-description">
                                     {member.desc1}
@@ -288,7 +289,7 @@ const About = () => {
                                 </p>
                                 <div className="d-flex flex-wrap">
                                     <div id="phone-tada" className="d-flex align-items-center justify-content-center me-3">
-                                        <a href="" className="position-relative wow tada" data-wow-delay=".9s">
+                                        <a className="position-relative wow tada" data-wow-delay=".9s">
                                             <i className="fa fa-phone-alt text-primary fa-2x"></i>
                                         </a>
                                     </div>
@@ -296,7 +297,7 @@ const About = () => {
                                         <span className="text-secondary fw-bold fs-5" style={{letterSpacing: "2px"}}>{member.phone}</span>
                                     </div>
                                     <div id="phone-tada" className="d-flex align-items-center justify-content-center me-3">
-                                        <a href="" className="position-relative wow tada" data-wow-delay=".9s">
+                                        <a className="position-relative wow tada" data-wow-delay=".9s">
                                             <i className="fa fa-envelope text-primary fa-2x"></i>
                                         </a>
                                     </div>

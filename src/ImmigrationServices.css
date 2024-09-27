@@ -1,0 +1,19 @@
+.immigration-page {
+    background: linear-gradient(rgba(0, 58, 102, 0.9), rgba(0, 58, 102, 0.8)), url('/public/img/immigrate-to-canada.jpg') !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: initial !important;
+    background-size: cover !important;
+}
+
+.service-page-img {
+    width: 100%; /* Ensures the image takes full width of its container */
+    height: 250px; /* Set a fixed height */
+    overflow: hidden; /* Ensures that any overflowing image is hidden */
+}
+
+.service-page-img img {
+    width: 100%; /* Ensures the image scales to the width of its container */
+    height: 100%; /* Ensures the image scales to the height of its container */
+    object-fit: cover; /* Ensures the image fills the container while maintaining its aspect ratio */
+}

@@ -6,6 +6,7 @@ import VisaCategories from './VisaCategories';
 import Features from './Features';
 import ClientReviews from './ClientReviews';
 import HomeBlog from './HomeBlog';
+import HomeNews from './HomeNews';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <VisaCategories/>
         <Features/>
         <ClientReviews/>
+        <HomeNews />
         <HomeBlog/>
     </div>
   );

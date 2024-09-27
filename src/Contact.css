@@ -1,0 +1,17 @@
+.contact-us-page{
+    background: linear-gradient(rgba(0, 58, 102, 0.9), rgba(0, 58, 102, 0.8)), url('/public/img/contact-us-page.jpg') !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: initial !important;
+    background-size: cover !important;
+}
+.office-img img {
+    width: 100%; /* Ensure the image takes the full width of the container */
+    height: 250px; /* Set a fixed height for consistency */
+    object-fit: cover; /* Ensure the image fills the container while maintaining its aspect ratio */
+    border-radius: 10px; /* Adds a slight border radius to match the rounded class */
+}
+
+.office-item {
+    margin-bottom: 30px; /* Adds space between office items if needed */
+}

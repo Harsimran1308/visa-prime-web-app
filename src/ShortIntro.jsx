@@ -7,10 +7,8 @@ const ShortIntro = () => {
             <div className="container py-5">
                 <div className="row g-5">
                     <div className="col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
-                        <div className="bg-light rounded">
-                            <img src="img/about-2.png" className="img-fluid w-100" style={{marginBottom: "75px"}} alt="Image"/>
-                            <img src="img/about-3.jpg" className="img-fluid w-100 border-bottom border-5 border-primary" style={{borderTopRightRadius:"300px", borderTopLeftRadius:"300px"}} alt="Image"/>
-                        </div>
+                            <img src="img/immigration-consultant-photo.jpg" className="img-fluid w-100" alt="Immigration consultant" style={{borderRadius:"10px"}}/>
+                            <img src="img/RCIC.png" className="img-fluid w-100" alt="RCIC"/>
                     </div>
                     <div className="col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
                         <h5 className="sub-title pe-3">About the company</h5>
@@ -42,7 +40,7 @@ const ShortIntro = () => {
                                 </div>
                                 <div className="d-flex flex-wrap">
                                     <div id="phone-tada" className="d-flex align-items-center justify-content-center me-4">
-                                        <a href="" className="position-relative wow tada" data-wow-delay=".9s">
+                                        <a className="position-relative wow tada" data-wow-delay=".9s">
                                             <i className="fa fa-phone-alt text-primary fa-3x"></i>
                                             <div className="position-absolute" style={{top: "0", left: "25px"}} >
                                                 <span><i className="fa fa-comment-dots text-secondary"></i></span>

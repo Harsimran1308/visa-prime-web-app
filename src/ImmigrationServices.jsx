@@ -1,4 +1,5 @@
 import React from "react";
+import './ImmigrationServices.css';
 
 const ImmigrationServices = () => {
     const serviceDetailsData= [
@@ -6,63 +7,63 @@ const ImmigrationServices = () => {
             id: 1,
             name: "Express Entry",
             description: "Fast-track your immigration to Canada through the Express Entry system. Ideal for skilled workers seeking Permanent Residency. Learn how to improve your CRS score for quick approval.",
-            imgSrc: "/img/service-1.jpg",
+            imgSrc: "/img/express-entry-home.jpg",
             urlRedirect:"/express-entry"
         },
         {
             id: 2,
             name: "Provisional Nominee",
             description: "Increase your chances of Canadian immigration with the Provincial Nominee Program (PNP). Tailored for candidates with specific provincial job offers. Find out the eligibility criteria for different provinces.",
-            imgSrc: "/img/service-2.jpg",
+            imgSrc: "/img/pnp-immigration.jpg",
             urlRedirect:"/provisional-nominee"
         },
         {
             id: 3,
             name: "LMIA",
             description: "Secure a job offer in Canada through the Labour Market Impact Assessment (LMIA). Essential for employers hiring foreign workers. Understand the LMIA process and boost your work permit approval.",
-            imgSrc: "/img/service-1.jpg",
+            imgSrc: "/img/labour-market.jpg",
             urlRedirect:"/lmia"
         },
         {
             id: 4,
             name: "Permanent Residence",
             description: "Become a Permanent Resident of Canada through various immigration streams. Explore pathways like Express Entry, PNP, and Family Sponsorship. Start your journey to PR status today.",
-            imgSrc: "/img/service-2.jpg",
+            imgSrc: "/img/permanent-residence.jpg",
             urlRedirect:"/permanent-residence"
         },
         {
             id: 5,
             name: "Work Permit",
             description: "Work legally in Canada with a valid Work Permit. Whether through LMIA, intra-company transfer, or other programs, we guide you through the application process. Find the best route to get your permit.",
-            imgSrc: "/img/service-1.jpg",
+            imgSrc: "/img/work-permit.jpg",
             urlRedirect:"/work-permit"
         },
         {
             id: 6,
             name: "Family Sponsorship",
             description: "Bring your loved ones to Canada through the Family Sponsorship program. Help your spouse, children, or parents join you as Permanent Residents. Understand the steps to successful sponsorship.",
-            imgSrc: "/img/service-2.jpg",
+            imgSrc: "/img/family-sponsorship.jpg",
             urlRedirect:"/family-sponsorship"
         },
         {
             id: 7,
             name: "Study Permit",
             description: "Study in Canada’s world-class educational institutions with a Study Permit. Learn about eligibility, document requirements, and pathways to Permanent Residency after graduation.",
-            imgSrc: "/img/service-1.jpg",
+            imgSrc: "/img/study-permit.jpg",
             urlRedirect:"/study-permit"
         },
         {
             id: 8,
             name: "Visitor Visa",
             description: "Explore Canada as a tourist, visit family, or attend business meetings with a Visitor Visa. Get details on application requirements, duration, and tips for a smooth entry into the country.",
-            imgSrc: "/img/service-2.jpg",
+            imgSrc: "/img/visitor-visa.jpg",
             urlRedirect:"/visitor-visa"
         },
         {
             id: 9,
             name: "Citizenship",
             description: "Take the final step in your Canadian immigration journey by applying for Citizenship. Learn the eligibility criteria, process, and benefits of becoming a Canadian citizen.",
-            imgSrc: "/img/service-1.jpg",
+            imgSrc: "/img/citizenship.jpg",
             urlRedirect:"/citizenship"
         }
     ]
@@ -98,7 +99,7 @@ const ImmigrationServices = () => {
     ]
     return (
         <div>
-            <div className="container-fluid bg-breadcrumb">
+            <div className="container-fluid bg-breadcrumb immigration-page">
                 <div className="container text-center py-5" style={{maxWidth: "900px"}}>
                     <h3 className="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Immigrate To Canada</h3>
                 </div>

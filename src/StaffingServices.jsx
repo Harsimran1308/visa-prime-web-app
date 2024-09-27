@@ -1,4 +1,5 @@
 import React from "react";
+import './StaffingServices.css'
 
 const StaffingServices = () => {
     const serviceDetailsData= [
@@ -6,43 +7,36 @@ const StaffingServices = () => {
             id: 1,
             name: "Admin & Office Clerical",
             description: "Administrative teams often get overlooked and taken for granted. However, without them, no department would operate efficiently and your office would be on the brink of chaos. We got you covered with staffing requirements in job post.",
-            imgSrc: "/img/service-1.jpg",
-            urlRedirect:"/express-entry"
+            imgSrc: "/img/admin-office-clerk.jpg",
+            urlRedirect:"/admin-office-clerks"
         },
         {
             id: 2,
             name: "Food Service & Cooks",
             description: "Making guests smile when they enter and exit your establishment. That’s the name of the restaurant or hotel game. And it’s only possible with the right service, many of which we happen to know. Now it’s time for us to get to know your business.",
-            imgSrc: "/img/service-2.jpg",
-            urlRedirect:"/provisional-nominee"
-        },
-        {
-            id: 3,
-            name: "LMIA",
-            description: "Secure a job offer in Canada through the Labour Market Impact Assessment (LMIA). Essential for employers hiring foreign workers. Understand the LMIA process and boost your work permit approval.",
-            imgSrc: "/img/service-1.jpg",
-            urlRedirect:"/lmia"
+            imgSrc: "/img/food-service-cooks.jpg",
+            urlRedirect:"/food-service-cooks"
         },
         {
             id: 4,
             name: "General Labour & Drivers",
             description: "Masters of moving, experts of expediting, denizens of delivery. Whatever you call them — transportation professionals work too — you need them, and we know them. Optimize your company’s supply chain by optimizing your transportation team. We’re happy to lend a hand.",
-            imgSrc: "/img/service-2.jpg",
-            urlRedirect:"/permanent-residence"
+            imgSrc: "/img/general-labour-driver.jpg",
+            urlRedirect:"/general-labour-drivers"
         },
         {
             id: 5,
             name: "Dental & Pharmacy Assistants",
             description: "Whether it’s clerical or you need a helping hand with some experience. We make sure that you do your job right. Dentists and Pharmacists need assistance in and around the office all the time. From clerical staff to handling appointments we got you covered.",
-            imgSrc: "/img/service-1.jpg",
-            urlRedirect:"/work-permit"
+            imgSrc: "/img/dental-pharmacy-assistants.jpg",
+            urlRedirect:"/dental-pharmacy-assistants"
         },
         {
             id: 7,
             name: "Warehouse & Operations",
             description: "It all starts in your warehouse. Well, much of the process, anyway. A distributor or end-user places an order and your warehouse starts buzzing with the sounds of voices, forklifts and loading dock doors. Then you hope your training and protocols make for a safe, efficient environment.",
-            imgSrc: "/img/service-1.jpg",
-            urlRedirect:"/study-permit"
+            imgSrc: "/img/warehouse-operations.jpg",
+            urlRedirect:"/warehouse-operations"
         }
 
     ]
@@ -78,7 +72,7 @@ const StaffingServices = () => {
     ]
     return (
         <div>
-            <div className="container-fluid bg-breadcrumb">
+            <div className="container-fluid bg-breadcrumb staffing-solution-page">
                 <div className="container text-center py-5" style={{maxWidth: "900px"}}>
                     <h3 className="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Staffing Solutions</h3>
                 </div>

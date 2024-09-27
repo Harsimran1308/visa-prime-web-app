@@ -1,9 +1,66 @@
-import React from "react";
+import React, { useRef } from "react";
+import axios from "axios";
+import {NotificationContainer, NotificationManager} from 'react-notifications';
+import './Contact.css';
 
 const Contact = () => {
+    const emailRef = useRef(null);
+    const firstNameRef = useRef(null);
+    const lastNameRef = useRef(null);
+    const phonelRef = useRef(null);
+    const messageRef = useRef(null);
+    const subjectRef = useRef(null);
+
+    const submitContactDetails = async (e) => {
+        e.preventDefault();
+        console.log(subjectRef)
+        const email = emailRef.current.value;
+        const firstName = firstNameRef.current.value;
+        const lastName = lastNameRef.current.value;
+        const phone = phonelRef.current.value;
+        const message = messageRef.current.value;
+        const subject = subjectRef.current.value;
+
+        const currentTimeEdmonton = new Intl.DateTimeFormat("en-US", {
+            timeZone: "America/Edmonton",
+            year: "numeric",
+            month: "2-digit",
+            day: "2-digit",
+            hour: "2-digit",
+            minute: "2-digit",
+            second: "2-digit",
+            hour12: true
+          }).format(new Date());
+    
+        try {
+            // Make an Axios POST request with JSON data
+            const response = await axios.post("https://88y718whni.execute-api.ca-central-1.amazonaws.com/prod/send-email", {
+                name:firstName+" "+lastName,
+                email:email,
+                phone:phone,
+                subject:`Contact Form - ${subject}`,
+                message:message+`\n Contact Form Submitted at ${currentTimeEdmonton}`
+            }, {
+              headers: {
+                'Content-Type': 'application/json',  // Set content type to JSON
+              }
+            });
+            NotificationManager.success('Success', 'Thank you for reaching out! We will be in touch with you shortly.');
+            // Clear the input field after success
+            emailRef.current.value = "";
+            firstNameRef.current.value = "";
+            lastNameRef.current.value = "";
+            phonelRef.current.value = "";
+            subjectRef.current.value = "";
+            messageRef.current.value = "";
+          } catch (error) {
+            // Handle error
+            NotificationManager.error('Error', 'Please try after some time.');
+          }
+      };
     return (
         <div>
-            <div className="container-fluid bg-breadcrumb">
+            <div className="container-fluid bg-breadcrumb contact-us-page">
                 <div className="container text-center py-5" style={{maxWidth: "900px"}}>
                     <h3 className="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Contact Us</h3>
                 </div>
@@ -60,9 +117,9 @@ const Contact = () => {
                                     <div className="bg-light d-flex align-items-center justify-content-center" style={{width: "90px", height: "90px", borderRadius: "10px"}}><i className="fas fa-share fa-3x text-primary"></i></div>
                                 </div>
                                 <div className="d-flex">
-                                    <a className="btn btn-secondary border-secondary me-2 p-0" href="">facebook <i className="fas fa-chevron-circle-right"></i></a>
-                                    <a className="btn btn-secondary border-secondary mx-2 p-0" href="">twitter <i className="fas fa-chevron-circle-right"></i></a>
-                                    <a className="btn btn-secondary border-secondary mx-2 p-0" href="">instagram <i className="fas fa-chevron-circle-right"></i></a>
+                                    <a className="btn btn-secondary border-secondary me-2 p-0" href="https://www.facebook.com/visaprime.consultancy/" target="_blank">facebook <i className="fas fa-chevron-circle-right"></i></a>
+                                    <a className="btn btn-secondary border-secondary mx-2 p-0" href="https://www.linkedin.com/in/puneetothi/" target="_blank">linkedin <i className="fas fa-chevron-circle-right"></i></a>
+                                    <a className="btn btn-secondary border-secondary mx-2 p-0" href="https://www.instagram.com/visaprime.consultancy/" target="_blank">instagram <i className="fas fa-chevron-circle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -72,41 +129,41 @@ const Contact = () => {
                             </div>
                             <h1 className="display-5 mb-4">Send Your Message</h1>
                             <p className="mb-3">Send us a message, and our experienced consultants will guide you through every step of your immigration process, including work permits, PR, and citizenship applications.</p>
-                            <form>
+                            <form onSubmit={submitContactDetails}>
                                 <div className="row g-4">
                                     <div className="col-lg-12 col-xl-6">
                                         <div className="form-floating">
-                                            <input type="text" className="form-control" id="first_name" placeholder="First Name" required/>
+                                            <input type="text" className="form-control" id="first_name" placeholder="First Name" required ref={firstNameRef}/>
                                             <label for="first_name">First Name</label>
                                         </div>
                                     </div>
                                     <div className="col-lg-12 col-xl-6">
                                         <div className="form-floating">
-                                            <input type="text" className="form-control" id="last_name" placeholder="Last Name" required/>
+                                            <input type="text" className="form-control" id="last_name" placeholder="Last Name" required ref={lastNameRef}/>
                                             <label for="last_name">Last Name</label>
                                         </div>
                                     </div>
                                     <div className="col-lg-12 col-xl-6">
                                         <div className="form-floating">
-                                            <input type="phone" className="form-control" id="phone" placeholder="Phone" required/>
+                                            <input type="phone" className="form-control" id="phone" placeholder="Phone" required ref={phonelRef}/>
                                             <label for="phone">Your Phone</label>
                                         </div>
                                     </div>
                                     <div className="col-lg-12 col-xl-6">
                                         <div className="form-floating">
-                                            <input type="email" className="form-control" id="email" placeholder="Email" required/>
+                                            <input type="email" className="form-control" id="email" placeholder="Email" required ref={emailRef}/>
                                             <label for="email">Your Email</label>
                                         </div>
                                     </div>
                                     <div className="col-12">
                                         <div className="form-floating">
-                                            <input type="text" className="form-control" id="subject" placeholder="Subject"/>
+                                            <input type="text" className="form-control" id="subject" placeholder="Subject" required ref={subjectRef}/>
                                             <label for="subject">Subject</label>
                                         </div>
                                     </div>
                                     <div className="col-12">
                                         <div className="form-floating">
-                                            <textarea className="form-control" placeholder="Leave a message here" id="message" style={{height: "160px"}}></textarea>
+                                            <textarea className="form-control" placeholder="Leave a message here" id="message" style={{height: "160px"}} required ref={messageRef}></textarea>
                                             <label for="message">Message</label>
                                         </div>
                                     </div>
@@ -129,7 +186,7 @@ const Contact = () => {
                             <div className="col-md-8 col-lg-8 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
                                 <div className="office-item p-4">
                                     <div className="office-img mb-4">
-                                        <img src="img/office-3.jpg" className="img-fluid w-100 rounded" alt="" />
+                                        <img src="img/fort-mcmurray.jpg" className="img-fluid w-100 rounded" alt="" />
                                     </div>
                                     <div className="office-content d-flex flex-column">
                                         <h4 className="mb-2">Fort MC Murray</h4>
@@ -142,7 +199,7 @@ const Contact = () => {
                             <div className="col-md-8 col-lg-8 col-xl-4 wow fadeInUp" data-wow-delay="0.7s">
                                 <div className="office-item p-4">
                                     <div className="office-img mb-4">
-                                        <img src="img/office-4.jpg" className="img-fluid w-100 rounded" alt="" />
+                                        <img src="img/edmonton.jpg" className="img-fluid w-100 rounded" alt="" />
                                     </div>
                                     <div className="office-content d-flex flex-column">
                                         <h4 className="mb-2">Edmonton</h4>

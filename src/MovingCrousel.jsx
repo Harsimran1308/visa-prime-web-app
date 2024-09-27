@@ -11,11 +11,10 @@ const MovingCrousel = () => {
                 </ol>
                 <div className="carousel-inner" role="listbox">
                     <div className="carousel-item active">
-                        <img src="img/home-screen-2.jpg" className="img-fluid" alt="Image"/>
+                        <img src="img/home-screen-1.jpg" className="img-fluid" alt="Image"/>
                         <div className="carousel-caption">
                             <div className="text-center p-4" style={{maxWidth:"900px"}}>
-                                <h4 className="text-white text-uppercase fw-bold mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.1s">Get Expert Solutions for All Your Immigration Queries</h4>
-                                <h1 className="display-1 text-capitalize text-white mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.3s">Immigration Process Starts Here!</h1>
+                                <h1 className="display-1 text-capitalize text-white mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.3s">Best Immigration Consultant In Edmonton</h1>
                                 <p className="text-white mb-4 mb-md-5 fs-5 wow fadeInUp" data-wow-delay="0.5s">We provide expert guidance and answers to all your immigration queries, whether it's about Permanent Residency (PR), Work Permits, Study Visas, or Canadian Citizenship. 
                                 </p>
                                 <a className="btn btn-primary border-secondary rounded-pill text-white py-3 px-5 wow fadeInUp" data-wow-delay="0.7s" href="/immigration-services">More Details</a>
@@ -23,11 +22,11 @@ const MovingCrousel = () => {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src="img/home-screen-1.jpg" className="img-fluid" alt="Image"/>
+                        <img src="img/home-screen-2.jpg" className="img-fluid" alt="Image"/>
                         <div className="carousel-caption">
                             <div className="text-center p-4" style={{maxWidth:"900px"}}>
                                 <h5 className="text-white text-uppercase fw-bold mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.1s">Staffing Solutions to Meet All Your Workforce Needs</h5>
-                                <h1 className="display-1 text-capitalize text-white mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.3s">Best Staffing Solution Services</h1>
+                                <h1 className="display-1 text-capitalize text-white mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.3s">Optimal Staffing Agency Services</h1>
                                 <p className="text-white mb-4 mb-md-5 fs-5 wow fadeInUp" data-wow-delay="0.5s">We provide comprehensive staffing solutions tailored to your business needs, helping you find the right talent quickly and efficiently.
                                 </p>
                                 <a className="btn btn-primary border-secondary rounded-pill text-white py-3 px-5 wow fadeInUp" data-wow-delay="0.7s" href="/staffing-solutions">More Details</a>

@@ -1,0 +1,43 @@
+.latest-news-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.latest-news-item .bg-light {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-light .rounded-top {
+    width: 100%;
+    height: 200px; /* Fixed height for images */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-light .rounded-top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image scales and fits the div */
+}
+
+.bg-light .d-flex.flex-column {
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.bg-light .h4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limits to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bg-light .d-flex.justify-content-between {
+    margin-top: auto;
+}

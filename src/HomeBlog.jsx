@@ -75,7 +75,7 @@ const HomeBlog = () => {
     return (
         <div>
             <div className="container-fluid contact blog overflow-hidden pb-5">
-            <div className="container py-5">
+            <div className="container pb-5">
                 <div className="office pt-5">
                     <div className="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
                         <div className="sub-style">
@@ -84,7 +84,7 @@ const HomeBlog = () => {
                         <h1 className="display-5 mb-4">Check Our Blogs</h1>
                         <p className="mb-0">Explore our blogs for the latest updates, expert insights, and answers to common immigration inquiries. Stay informed about Canadian immigration policies, visa processes, and more to guide your journey.</p>
                     </div>
-                    <div className="owl-carousel blog-carousel wow fadeInUp" data-wow-delay=".5s">
+                    <div className="owl-carousel blog-carousel wow fadeInUp" data-wow-delay="0.1s">
                     {blogData.map((blog) => (
                         <div className="blog-item blog-container-info" key={blog.id}>
                         <img src={blog.imgSrc} className="img-fluid w-100 rounded-top blog-img-info" alt=""/>

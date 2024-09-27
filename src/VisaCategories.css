@@ -1,0 +1,11 @@
+.service-img {
+    width: 100%; /* Ensures the image takes full width of its container */
+    height: 250px; /* Set a fixed height */
+    overflow: hidden; /* Ensures that any overflowing image is hidden */
+}
+
+.service-img img {
+    width: 100%; /* Ensures the image scales to the width of its container */
+    height: 100%; /* Ensures the image scales to the height of its container */
+    object-fit: cover; /* Ensures the image fills the container while maintaining its aspect ratio */
+}

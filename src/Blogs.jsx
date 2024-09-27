@@ -1,4 +1,5 @@
 import React,{ useState } from "react";
+import './Blogs.css';
 
 const Blogs = () => {
     // Sample data array
@@ -80,7 +81,7 @@ const Blogs = () => {
       });
     return (
         <div>
-            <div className="container-fluid bg-breadcrumb">
+            <div className="container-fluid bg-breadcrumb blogs-page">
                 <div className="container text-center py-5" style={{maxWidth: "900px"}}>
                     <h3 className="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Blogs</h3>
                 </div>
@@ -89,8 +90,8 @@ const Blogs = () => {
             <div class="container-fluid blog py-5">
                 <div class="container py-5">
                     <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{maxWidth: "800px"}}>
-                        <h1 class="display-4 mb-4">News And Updates</h1>
-                        <p class="mb-0">Stay informed with the latest news and updates on Canadian immigration policies, programs, and requirements. Whether you're tracking changes in visa rules, new pathways for permanent residency, or updates on work permits and citizenship, this section provides timely and accurate information to help you navigate your immigration journey.
+                        <h1 class="display-4 mb-4">Latest Immigration Information</h1>
+                        <p class="mb-0">Stay informed with the latest Canadian immigration policies, programs, and requirements. Whether you're tracking changes in visa rules, new pathways for permanent residency, or updates on work permits and citizenship, we provide you with timely and accurate information to help you navigate your immigration journey.
                         </p>
                     </div>
                     <div class="row g-4 justify-content-center">

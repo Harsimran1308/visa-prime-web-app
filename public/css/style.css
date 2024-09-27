@@ -248,7 +248,7 @@
 }
 
 .dropdown .dropdown-menu a:hover {
-    background: var(--bs-primary);
+    background: #FFF;
     color: var(--bs-secondary);
 }
 
@@ -1236,7 +1236,8 @@
     justify-content: center;
 }
 .details-text {
-    margin-top: 20px;
+    margin-top: 50px;
+    color: var(--bs-primary) !important;;
 }
 
 *** Service Start ***/
@@ -1359,4 +1360,48 @@
 
 .service-page .service-page-item:hover .service-page-content::after {
     height: 100%;
+}
+
+.latest-news .latest-news-carousel.owl-carousel{
+    position: relative;
+}
+
+.latest-news .owl-carousel.latest-news-carousel .owl-nav {
+    position: absolute;
+    top: -60px;
+    right: 0;
+    display: flex;
+    font-size: 40px;
+    color: var(--bs-primary);
+}
+
+.latest-news .owl-carousel.latest-news-carousel .owl-nav .owl-prev {
+    margin-right: 40px;
+}
+
+.latest-news .owl-carousel.latest-news-carousel .owl-nav .owl-prev,
+.latest-news .owl-carousel.latest-news-carousel .owl-nav .owl-next {
+    transition: 0.5s;
+}
+
+.latest-news .owl-carousel.latest-news-carousel .owl-nav .owl-prev:hover,
+.latest-news .owl-carousel.latest-news-carousel .owl-nav .owl-next:hover {
+    color: var(--bs-secondary);
+}
+
+.article-navigation-link {
+    color: var(--bs-secondary);
+}
+.article-navigation-link:hover {
+    color: var(--bs-secondary);
+    text-decoration: underline;
+}
+.navigation-points {
+    margin-bottom: 10px !important;
+}
+.article-section{
+    margin-top: 50px;
+}
+.article-detail-table {
+    border: 1px solid var(--bs-primary);
 }

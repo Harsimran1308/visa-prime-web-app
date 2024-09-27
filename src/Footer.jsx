@@ -1,6 +1,45 @@
-import React from "react";
+import React, { useRef } from "react";
+import axios from "axios";
+import {NotificationContainer, NotificationManager} from 'react-notifications';
 
 const Footer = () => {
+    const emailRef = useRef(null);
+    const signupForNewsLetter = async (e) => {
+        e.preventDefault();
+        
+        const email = emailRef.current.value;
+        const currentTimeEdmonton = new Intl.DateTimeFormat("en-US", {
+            timeZone: "America/Edmonton",
+            year: "numeric",
+            month: "2-digit",
+            day: "2-digit",
+            hour: "2-digit",
+            minute: "2-digit",
+            second: "2-digit",
+            hour12: true
+          }).format(new Date());
+    
+        try {
+            // Make an Axios POST request with JSON data
+            const response = await axios.post("https://88y718whni.execute-api.ca-central-1.amazonaws.com/prod/send-email", {
+                name:"News Letter Signup",
+                email:email,
+                phone:"News Letter Signup",
+                subject:`News Letter Subscription - ${currentTimeEdmonton}`,
+                message:"New NewsLetter Subscription"
+            }, {
+              headers: {
+                'Content-Type': 'application/json',  // Set content type to JSON
+              }
+            });
+            NotificationManager.success('Success', 'Thank you for signing up for our newsletter!');
+            // Clear the input field after success
+            emailRef.current.value = "";
+          } catch (error) {
+            // Handle error
+            NotificationManager.error('Error', 'Please try after some time.');
+          }
+      };
     return (
         <div className="footer">
             <div className="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
@@ -11,16 +50,15 @@ const Footer = () => {
                                 <div style={{display:"flex"}}>
                                     <i className="fas fa-building me-2" style={{display:"inline-flex", paddingTop:"5px", color:"#FFF"}}></i><h4 className="text-secondary mb-4" style={{display:"inline-flex"}}>FORT MCMURRAY</h4>
                                 </div>
-                                <a href=""><i className="fa fa-map-marker-alt me-2"></i> 9707 Franklin Avenue #207, Fort McMurray, AB T9H 2K1</a>
-                                <a href=""><i className="fas fa-envelope me-2"></i> info@visaprime.ca</a>
-                                <a href=""><i className="fas fa-phone me-2"></i> +1-780-750-5551</a>
-                                <a href=""><i className="fas fa-clock me-2"></i> Mon - Fri : 10 AM - 5 PM</a>
+                                <a><i className="fa fa-map-marker-alt me-2"></i> 9707 Franklin Avenue #207, Fort McMurray, AB T9H 2K1</a>
+                                <a><i className="fas fa-envelope me-2"></i> info@visaprime.ca</a>
+                                <a><i className="fas fa-phone me-2"></i> +1-780-750-5551</a>
+                                <a><i className="fas fa-clock me-2"></i> Mon - Fri : 10 AM - 5 PM</a>
                                 <div className="d-flex align-items-center" style={{marginTop:"5px"}}>
                                     <i className="fas fa-share fa-2x text-secondary me-2"></i>
-                                    <a className="btn mx-1" href=""><i className="fab fa-facebook-f"></i></a>
-                                    <a className="btn mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                    <a className="btn mx-1" href=""><i className="fab fa-instagram"></i></a>
-                                    <a className="btn mx-1" href=""><i className="fab fa-linkedin-in"></i></a>
+                                    <a className="btn mx-1" href="https://www.facebook.com/visaprime.consultancy/" target="_blank"><i className="fab fa-facebook-f"></i></a>
+                                    <a className="btn mx-1" href="https://www.instagram.com/visaprime.consultancy/" target="_blank"><i className="fab fa-instagram"></i></a>
+                                    <a className="btn mx-1" href="https://www.linkedin.com/in/puneetothi/" target="_blank"><i className="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -51,8 +89,10 @@ const Footer = () => {
                                 <h4 className="text-secondary mb-4">Newsletter</h4>
                                 <p className="text-white mb-3">Sign up to receive the latest immigration news, updates, and changes, including PR, Work Permits, and more.</p>
                                 <div className="position-relative mx-auto rounded-pill">
-                                    <input className="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email" />
-                                    <button type="button" className="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
+                                    <form onSubmit={signupForNewsLetter}>
+                                        <input className="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="email" placeholder="Enter your email" required ref={emailRef}/>
+                                        <button type="submit" className="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
