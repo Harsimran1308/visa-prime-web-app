@@ -5,37 +5,37 @@ const HomeNews = () => {
     // Sample data array
   const newsData = [
     {
-      id: 1,
-      imgSrc: "img/news-september-2024.jpg",
-      author: "Ketan",
-      date: "27 September, 2024",
-      description: "Canada’s new policies are primarily affecting international students",
-      redirectUrl:"/newsletter-september-2024",
-    },
-    {
-      id: 2,
-      imgSrc: "img/news-august-2024.jpg",
-      author: "Ketan",
-      date: "12 March, 2024",
-      description: "AAIP’s New Expression of Interest System",
-      redirectUrl:"/newsletter-august-2024",
-    },
-    {
+        id: 1,
+        imgSrc: "/img/Newsletter/immigration-policies-uncertainity-news.jpg",
+        author: "Jas Dhaliwal",
+        date: "5 September, 2024",
+        description: "Canada's evolving immigration policies are creating uncertainty for international students",
+        redirectUrl: "/newsletter-september-2024"
+      },
+      {
+        id: 2,
+        imgSrc: "/img/Newsletter/measure-combat-fraud-in-immigration.jpg",
+        author: "Puneet Othi",
+        date: "6 August, 2024",
+        description: "New Measures to combat fraud in Temporary Foreign Worker Program",
+        redirectUrl: "/newsletter-august-2024"
+      },
+      {
         id: 3,
-        imgSrc: "img/news-july-2024.jpg",
-        author: "Ketan",
-        date: "1 August, 2024",
-        description: "Trend for 2024 Express Entry Draws",
-        redirectUrl:"/newsletter-june-2024",
-    },
-    {
-    id: 4,
-    imgSrc: "img/news-june-2024.jpg",
-    author: "Ketan",
-    date: "30 August, 2024",
-    description: "New approach for Alberta Streams and Pathways",
-    redirectUrl:"/newsletter-july-2024",
-    }
+        imgSrc: "/img/Newsletter/immigration-backlog-increase-news.jpg",
+        author: "Mary Anne",
+        date: "5 July, 2024",
+        description: "Immigration backlog starts increasing again",
+        redirectUrl: "/newsletter-july-2024"
+      },
+      {
+        id: 4,
+        imgSrc: "/img/Newsletter/alberta-immigration-streams.jpg",
+        author: "Mary Anne",
+        date: "3 June, 2024",
+        description: "New approach for Alberta Streams and Pathways Miller Issues Statement on International Students",
+        redirectUrl: "/newsletter-june-2024"
+      },
   ];
 
     useEffect(() => {
@@ -79,9 +79,9 @@ const HomeNews = () => {
                 <div className="office pt-5">
                     <div className="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
                         <div className="sub-style">
-                            <h5 className="sub-title text-primary px-3">NewsLetter</h5>
+                            <h5 className="sub-title text-primary px-3">Immigration News</h5>
                         </div>
-                        <h1 className="display-5 mb-4">Monthly Latest News</h1>
+                        <h1 className="display-5 mb-4">Monthly NewsLetter</h1>
                         <p className="mb-0">Stay up-to-date with the latest news and updates on Canada’s immigration programs. From policy changes to new pathways for permanent residency, we provide insights to help you navigate the process.</p>
                     </div>
                     <div class="latest-news-carousel owl-carousel wow fadeInUp" data-wow-delay="0.1s">

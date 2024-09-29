@@ -4,66 +4,86 @@ import './News.css';
 const News = () => {
     // Sample data array
   const [newsData] = useState([
-    {
+    {    
         id: 1,
-        imgSrc: "img/blog-1.jpg",
-        author: "Ketan",
-        date: "10 September, 2024",
-        title: "How to get an Express Entry",
-        description: "Apply for express entry with the CRS score.",
-        tags: ["Express Entry", "EE", "CRS", "CRS Score"],
-        redirectSource: "/immigration-details"
-        },
-        {
+        imgSrc: "/img/Newsletter/immigration-policies-uncertainity-news.jpg",
+        author: "Jas Dhaliwal",
+        date: "5 September, 2024",
+        description: "Canada's evolving immigration policies are creating uncertainty for international students",
+        redirectUrl: "/newsletter-september-2024"
+    },
+    {
         id: 2,
-        imgSrc: "img/blog-2.jpg",
-        author: "Ketan",
-        date: "12 March, 2024",
-        title: "Apply for study permit",
-        description: "Apply for study permit.",
-        tags:["study permit", "student permit"],
-        redirectSource: "/immigration-details"
-        },
-        {
-            id: 3,
-            imgSrc: "img/blog-3.jpg",
-            author: "Ketan",
-            date: "1 August, 2024",
-            title: "Get an LMIA",
-            description: "Get an Labour Market assessment application and apply for work permit.",
-            tags:["LMIA", "work permit"],
-            redirectSource: "/immigration-details"
-        },
-        {
-            id: 4,
-            imgSrc: "img/blog-4.jpg",
-            author: "Ketan",
-            date: "30 August, 2024",
-            title: "Get Canadian Citizenship",
-            description: "Apply for canadian citizenship and become canadian",
-            tags:["citizenship", "canadian"],
-            redirectSource: "/immigration-details"
-        },
-        {
-            id: 5,
-            imgSrc: "img/blog-1.jpg",
-            author: "Ketan",
-            date: "30 August, 2024",
-            title: "Get Canadian Citizenship",
-            description: "Apply for canadian citizenship and become canadian",
-            tags:["citizenship", "canadian"],
-            redirectSource: "/immigration-details"
-        },
-        {
-            id: 6,
-            imgSrc: "img/blog-3.jpg",
-            author: "Ketan",
-            date: "30 August, 2024",
-            title: "Get Canadian Citizenship",
-            description: "Apply for canadian citizenship and become canadian",
-            tags:["citizenship", "canadian"],
-            redirectSource: "/immigration-details"
-        },
+        imgSrc: "/img/Newsletter/measure-combat-fraud-in-immigration.jpg",
+        author: "Puneet Othi",
+        date: "6 August, 2024",
+        description: "New Measures to combat fraud in Temporary Foreign Worker Program",
+        redirectUrl: "/newsletter-august-2024"
+    },
+    {
+        id: 3,
+        imgSrc: "/img/Newsletter/immigration-backlog-increase-news.jpg",
+        author: "Mary Anne",
+        date: "5 July, 2024",
+        description: "Immigration backlog starts increasing again",
+        redirectUrl: "/newsletter-july-2024"
+    },
+    {
+        id: 4,
+        imgSrc: "/img/Newsletter/alberta-immigration-streams.jpg",
+        author: "Mary Anne",
+        date: "3 June, 2024",
+        description: "New approach for Alberta Streams and Pathways,Miller Issues Statement on International Students",
+        redirectUrl: "/newsletter-june-2024"
+    },
+    {
+        id: 5,
+        imgSrc: "/img/Newsletter/marc-miller-internation-students.jpg",
+        author: "Puneet Othi",
+        date: "1 April, 2024",
+        description: "Miller Issues Statement on International Students",
+        redirectUrl: "/newsletter-april-2024"
+    },
+    {
+        id: 6,
+        imgSrc: "/img/Newsletter/aaip-pr-pathway.jpg",
+        author: "Jazmine Dulay",
+        date: "3 March, 2024",
+        description: "AAIP Releases Eligibility Requirements for the Latest PR Pathway in Tourism and Hospitality",
+        redirectUrl: "/newsletter-march-2024"
+    },
+    {
+        id: 7,
+        imgSrc: "/img/Newsletter/healthcare-immigration-plans.jpg",
+        author: "Puneet Othi",
+        date: "7 November, 2023",
+        description: "Housing and Healthcare included in 2024-2026 Immigration Plans",
+        redirectUrl: "/newsletter-november-2023"
+    },
+    {
+        id: 8,
+        imgSrc: "/img/Newsletter/supervisa-canada-immigration.jpg",
+        author: "Micah Sotto",
+        date: "4 October, 2023",
+        description: "The Parents and Grandparents 2023 lottery in Canada has begun",
+        redirectUrl: "/newsletter-october-2023"
+    },
+    {
+        id: 9,
+        imgSrc: "/img/Newsletter/cap-student-visa-immigration.jpg",
+        author: "Issa Jabeulena",
+        date: "3 September, 2023",
+        description: "Canada is considering imposing a cap on foreign student visas",
+        redirectUrl: "/newsletter-september-2023"
+    },
+    {
+        id: 10,
+        imgSrc: "/img/Newsletter/stem-category-immigration-draw.jpg",
+        author: "Micah Sotto",
+        date: "1 July, 2023",
+        description: "Canada held its first draw for STEM Category",
+        redirectUrl: "/newsletter-july-2023"
+    }
   ])
     // Search input state
     const [searchTerm, setSearchTerm] = useState('');
