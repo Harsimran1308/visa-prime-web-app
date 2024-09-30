@@ -21,7 +21,7 @@ const Header = () => {
                                 <a href="/express-entry" className="dropdown-item">Express Entry</a>
                                 <a href="/pnp" className="dropdown-item">Provincial Nominee</a>
                                 <a href="/lmia" className="dropdown-item">LMIA</a>
-                                <a href="/pr" className="dropdown-item">Permanent Residency</a>
+                                <a href="/permanent-residence" className="dropdown-item">Permanent Residency</a>
                                 <a href="/work-permit" className="dropdown-item">Work Permit</a>
                                 <a href="/family-sponsorship" className="dropdown-item">Family Sponsorship</a>
                                 <a href="/study-permit" className="dropdown-item">Study Permit</a>

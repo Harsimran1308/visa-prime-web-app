@@ -15,7 +15,7 @@ const ImmigrationServices = () => {
             name: "Provisional Nominee",
             description: "Increase your chances of Canadian immigration with the Provincial Nominee Program (PNP). Tailored for candidates with specific provincial job offers. Find out the eligibility criteria for different provinces.",
             imgSrc: "/img/pnp-immigration.jpg",
-            urlRedirect:"/provisional-nominee"
+            urlRedirect:"/pnp"
         },
         {
             id: 3,

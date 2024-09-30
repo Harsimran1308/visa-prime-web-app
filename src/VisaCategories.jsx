@@ -38,7 +38,7 @@ const VisaCategories = () => {
         {
             id:"5",
             name:"Permanent Residence",
-            redirectUrl:"/express-entry",
+            redirectUrl:"/permanent-residence",
             imgSrc:"/img/permanent-residence.jpg",
             descrioption:"Permanent residence in Canada grants individuals the right to live, work, and study in the country indefinitely, with access to most of the benefits of Canadian citizens.",
             altImgData:"Permanent Residence Photo"
@@ -46,7 +46,7 @@ const VisaCategories = () => {
         {
             id:"6",
             name:"Tourist Visa",
-            redirectUrl:"/express-entry",
+            redirectUrl:"/visitor-visa",
             imgSrc:"/img/visitor-visa.jpg",
             descrioption:"A Canadian tourist visa allows visitors to explore Canada for a temporary period while enjoying its diverse attractions and experiences.",
             altImgData:"Visitor Visa Photo"

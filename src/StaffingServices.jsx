@@ -8,7 +8,7 @@ const StaffingServices = () => {
             name: "Admin & Office Clerical",
             description: "Administrative teams often get overlooked and taken for granted. However, without them, no department would operate efficiently and your office would be on the brink of chaos. We got you covered with staffing requirements in job post.",
             imgSrc: "/img/admin-office-clerk.jpg",
-            urlRedirect:"/admin-office-clerks"
+            urlRedirect:"/admin-clerk"
         },
         {
             id: 2,
@@ -22,7 +22,7 @@ const StaffingServices = () => {
             name: "General Labour & Drivers",
             description: "Masters of moving, experts of expediting, denizens of delivery. Whatever you call them — transportation professionals work too — you need them, and we know them. Optimize your company’s supply chain by optimizing your transportation team. We’re happy to lend a hand.",
             imgSrc: "/img/general-labour-driver.jpg",
-            urlRedirect:"/general-labour-drivers"
+            urlRedirect:"/general-labour"
         },
         {
             id: 5,

@@ -76,12 +76,12 @@ const Footer = () => {
                         <div className="col-md-6 col-lg-6 col-xl-3">
                             <div className="footer-item d-flex flex-column">
                                 <h4 className="text-secondary mb-4">Our Services</h4>
-                                <a href="#" className=""><i className="fas fa-angle-right me-2"></i> Work Permit</a>
-                                <a href="#" className=""><i className="fas fa-angle-right me-2"></i> LMIA</a>
-                                <a href="#" className=""><i className="fas fa-angle-right me-2"></i> Permanent Residence</a>
-                                <a href="#" className=""><i className="fas fa-angle-right me-2"></i> Study</a>
-                                <a href="#" className=""><i className="fas fa-angle-right me-2"></i> Staffing Solution</a>
-                                <a href="#" className=""><i className="fas fa-angle-right me-2"></i> Immigrate to Canada</a>
+                                <a href="/work-permit" className=""><i className="fas fa-angle-right me-2"></i> Work Permit</a>
+                                <a href="/lmia" className=""><i className="fas fa-angle-right me-2"></i> LMIA</a>
+                                <a href="/permanent-residence" className=""><i className="fas fa-angle-right me-2"></i> Permanent Residence</a>
+                                <a href="/study-permit" className=""><i className="fas fa-angle-right me-2"></i> Study</a>
+                                <a href="/staffing-solutions" className=""><i className="fas fa-angle-right me-2"></i> Staffing Solution</a>
+                                <a href="/immigration-services" className=""><i className="fas fa-angle-right me-2"></i> Immigrate to Canada</a>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-6 col-xl-3">

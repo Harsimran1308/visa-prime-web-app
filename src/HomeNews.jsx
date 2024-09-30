@@ -94,7 +94,7 @@ const HomeNews = () => {
                                 <div class="d-flex flex-column p-4">
                                     <a href={news.redirectUrl} class="h4">{news.description}</a>
                                     <div class="d-flex justify-content-between">
-                                        <a href="#" class="small text-body link-hover">by {news.author}</a>
+                                        <a class="small text-body link-hover">by {news.author}</a>
                                         <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>{news.date}</small>
                                     </div>
                                 </div>

@@ -525,7 +525,7 @@ const ExpressEntry = () => {
                                             firm to assist with your application, their services will also come with associated costs.</li>
                                     </ul>
 
-                                    <p><a href="#" className="article-navigation-link">Click here to learn how our law firm can assist you with Express Entry.</a></p>
+                                    <p><a href="/contact" className="article-navigation-link">Click here to learn how our firm can assist you with Express Entry.</a></p>
                                     <p>By budgeting for these expenses, you can ensure a smoother application process for your
                                     Express Entry journey.</p>  
                                 </section>
@@ -610,7 +610,7 @@ const ExpressEntry = () => {
                                         <li><strong>Work Experience:</strong> You must have a minimum of one year of continuous full-time (or
                                             equivalent part-time) work experience in a skilled occupation within the last 10 years.
                                             Whether your experience is from abroad or in Canada, you can refer to our article titled
-                                            <a href="#">"Proof of Work Experience for Express Entry"</a> for guidance on the necessary
+                                            "Proof of Work Experience for Express Entry for guidance on the necessary
                                             documentation and verification processes by IRCC.</li>
                                         <li><strong>Language Proficiency:</strong> You must demonstrate a minimum score of Canadian Language
                                             Benchmark (CLB) 7 in either English or French, as verified by an approved language test.</li>

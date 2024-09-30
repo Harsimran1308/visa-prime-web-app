@@ -90,11 +90,11 @@ const Contact = () => {
                                             <h5 className="mb-3">Quick Contact</h5>
                                             <div className="mb-3">
                                                 <h6 className="mb-0">Phone:</h6>
-                                                <a href="#" className="fs-5 text-primary">+1 (780) 750-5551</a>
+                                                <a className="fs-5 text-primary">+1 (780) 750-5551</a>
                                             </div>
                                             <div className="mb-3">
                                                 <h6 className="mb-0">Email:</h6>
-                                                <a href="#" className="fs-5 text-primary">info@primevisa.com</a>
+                                                <a className="fs-5 text-primary">info@primevisa.com</a>
                                             </div>
                                         </div>
                                     </div>
@@ -106,7 +106,7 @@ const Contact = () => {
                                             <h5 className="mb-3">Opening Hrs</h5>
                                             <div className="mb-3">
                                                 <h6 className="mb-0">Mon - Friday:</h6>
-                                                <a href="#" className="fs-5 text-primary">10.00 am to 05.00 pm</a>
+                                                <a className="fs-5 text-primary">10.00 am to 05.00 pm</a>
                                             </div>
                                         </div>
                                     </div>
@@ -190,8 +190,8 @@ const Contact = () => {
                                     </div>
                                     <div className="office-content d-flex flex-column">
                                         <h4 className="mb-2">Fort MC Murray</h4>
-                                        <a href="#" className="text-secondary fs-5 mb-2">+1 (780) 750-5551</a>
-                                        <a href="#" className="text-muted fs-5 mb-2">info@primevisa.ca</a>
+                                        <a className="text-secondary fs-5 mb-2">+1 (780) 750-5551</a>
+                                        <a className="text-muted fs-5 mb-2">info@primevisa.ca</a>
                                         <p className="mb-0">9707 Franklin Avenue #207, Fort McMurray, AB, Canada T9H 2K1</p>
                                     </div>
                                 </div>
@@ -203,8 +203,8 @@ const Contact = () => {
                                     </div>
                                     <div className="office-content d-flex flex-column">
                                         <h4 className="mb-2">Edmonton</h4>
-                                        <a href="#" className="text-secondary fs-5 mb-2">+1 (825) 777-4222</a>
-                                        <a href="#" className="text-muted fs-5 mb-2">info@primevisa.ca</a>
+                                        <a className="text-secondary fs-5 mb-2">+1 (825) 777-4222</a>
+                                        <a className="text-muted fs-5 mb-2">info@primevisa.ca</a>
                                         <p className="mb-0">4245 97 St NW #101, Edmonton, AB, Canada T6E 5Y7</p>
                                     </div>
                                 </div>

@@ -11,6 +11,7 @@ const HomeBlog = () => {
       date: "10 September, 2024",
       title: "How to get an Express Entry",
       description: "Apply for express entry with the CRS score.",
+      redirectURl:"/immigration-details"
     },
     {
       id: 2,
@@ -19,6 +20,7 @@ const HomeBlog = () => {
       date: "12 March, 2024",
       title: "Apply for study permit",
       description: "Apply for study permit",
+      redirectURl:"/immigration-details"
     },
     {
         id: 3,
@@ -27,6 +29,7 @@ const HomeBlog = () => {
         date: "1 August, 2024",
         title: "Get an LMIA",
         description: "Get an Labour Market assessment application and apply for work permit",
+        redirectURl:"/immigration-details"
     },
     {
     id: 4,
@@ -35,6 +38,7 @@ const HomeBlog = () => {
     date: "30 August, 2024",
     title: "Get Canadian Citizenship",
     description: "Apply for canadian citizenship and become canadian",
+    redirectURl:"/immigration-details"
     },
   ];
 
@@ -98,7 +102,7 @@ const HomeBlog = () => {
                                 <p>{blog.description}</p>
                             </div>
                                 <div class="feature-content d-flex flex-column">
-                                    <a class="btn btn-secondary rounded-pill" href="#">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+                                    <a class="btn btn-secondary rounded-pill" href={blog.redirectURl}>Read More<i class="fas fa-arrow-right ms-2"></i></a>
                                 </div>
                             </div>
                      </div>

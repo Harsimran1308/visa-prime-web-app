@@ -24,6 +24,7 @@ import November2023 from './Newsletter/November2023';
 import October2023 from './Newsletter/October2023';
 import September2023 from './Newsletter/September2023';
 import July2023 from './Newsletter/July2023';
+import UnderDevelopment from './UnderDevelopment';
 
 function App() {
   return (
@@ -51,6 +52,19 @@ function App() {
         <Route path="/newsletter-october-2023" element={<October2023 />} />
         <Route path="/newsletter-september-2023" element={<September2023 />} />
         <Route path="/newsletter-july-2023" element={<July2023 />} />
+        <Route path="/pnp" element={<UnderDevelopment />} />
+        <Route path="/lmia" element={<UnderDevelopment />} />
+        <Route path="/permanent-residence" element={<UnderDevelopment />} />
+        <Route path="/work-permit" element={<UnderDevelopment />} />
+        <Route path="/study-permit" element={<UnderDevelopment />} />
+        <Route path="/visitor-visa" element={<UnderDevelopment />} />
+        <Route path="/citizenship" element={<UnderDevelopment />} />
+        <Route path="/family-sponsorship" element={<UnderDevelopment />} />
+        <Route path="/admin-clerk" element={<UnderDevelopment />} />
+        <Route path="/food-service-cooks" element={<UnderDevelopment />} />
+        <Route path="/general-labour" element={<UnderDevelopment />} />
+        <Route path="/dental-pharmacy-assistants" element={<UnderDevelopment />} />
+        <Route path="/warehouse-operations" element={<UnderDevelopment />} />
       </Routes>
       <Footer />
     </Router>

@@ -11,7 +11,7 @@ const ImmigrationDetails = () => {
                     <div className="row">
                         <div className="col-12">
                             <div className="details-image">
-                                <img src="img/single-1.jpg" alt="Image" style={{marginTop:"30px"}}/>
+                                <img src="img/immigrate-canada.jpg" alt="Image" style={{marginTop:"30px"}}/>
                             </div>
                             <div className="details-text">
                                 <p>
