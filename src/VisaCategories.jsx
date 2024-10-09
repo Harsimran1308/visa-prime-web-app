@@ -13,10 +13,10 @@ const VisaCategories = () => {
         },
         {
             id:"2",
-            name:"Provinvial Nominee",
+            name:"Alberta Advantage Immigration Program",
             redirectUrl:"/pnp",
             imgSrc:"img/pnp-immigration.jpg",
-            descrioption:"The Provincial Nominee Program (PNP) allows Canadian provinces to nominate individuals for permanent residency based on their skills and labor market needs",
+            descrioption:"The Alberta Advantage Immigration Program (AAIP) is a provincial immigration program that offers a pathway to permanent residence for skilled workers, entrepreneurs, and graduates who wish to live and work in Alberta, Canada.",
             altImgData:"Provincial Nominee Program Photo"
         },
         {

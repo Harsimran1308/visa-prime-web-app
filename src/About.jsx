@@ -1,5 +1,6 @@
 import React from "react";
 import './About.css';
+import ClientReviews from './ClientReviews';
 
 const About = () => {
     const teamMemberData = [
@@ -20,7 +21,7 @@ const About = () => {
             desc1: "Our Managing Director – VisaPrime Immigration, Mr. Kulwinderjit Singh, is a mature, well educated, multi field experienced individual, for whom challenges are a passion. Being a UK resident previously and traveling to Canada every year, he has a vast experience in managing businesses in the UK and India.  He takes care of the document collection and consultancy operations in India. His core strengths incorporate a solution-oriented approach in his work and building strong and professional relationships with clients.",
             desc2: "His technical skills provide a stable setup in infrastructure which helps in prompt processing of applications and keeping the client information secured. He manages the IELTS Operations – Online & In-person classes along with assisting clients with their queries regarding Immigration to Canada as a student, worker or for Permanent Residency.",
             phone: "+91 89682-87915",
-            email: "india@visaprime.ca",
+            email: "kulwinder@visaprime.ca",
             sclass:true
         },
         {
@@ -290,14 +291,6 @@ const About = () => {
                                 <div className="d-flex flex-wrap">
                                     <div id="phone-tada" className="d-flex align-items-center justify-content-center me-3">
                                         <a className="position-relative wow tada" data-wow-delay=".9s">
-                                            <i className="fa fa-phone-alt text-primary fa-2x"></i>
-                                        </a>
-                                    </div>
-                                    <div className="d-flex flex-column justify-content-center me-5">
-                                        <span className="text-secondary fw-bold fs-5" style={{letterSpacing: "2px"}}>{member.phone}</span>
-                                    </div>
-                                    <div id="phone-tada" className="d-flex align-items-center justify-content-center me-3">
-                                        <a className="position-relative wow tada" data-wow-delay=".9s">
                                             <i className="fa fa-envelope text-primary fa-2x"></i>
                                         </a>
                                     </div>
@@ -310,6 +303,9 @@ const About = () => {
                     </div>
                 </div>
             ))}
+            <div className="google-review-about-us">
+                <ClientReviews></ClientReviews>
+            </div>
         </div>
     )
 } 

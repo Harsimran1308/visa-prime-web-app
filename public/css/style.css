@@ -1341,7 +1341,7 @@
 }
 
 .service-page .service-page-item:hover .service-page-content .service-page-content-inner .h4:hover {
-    color: var(--bs-dark);
+    /* color: var(--bs-dark); */
 }
 
 .service-page .service-page-item .service-page-content::after {
@@ -1404,4 +1404,34 @@
 }
 .article-detail-table {
     border: 1px solid var(--bs-primary);
+}
+
+.banner {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/banner-background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 9;
+}
+
+.assessment-banner {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/assessment-background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 9;
+}
+
+.invest-banner {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/invest-in-Canada.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 9;
 }

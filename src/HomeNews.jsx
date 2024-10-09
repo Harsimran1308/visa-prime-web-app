@@ -81,8 +81,8 @@ const HomeNews = () => {
                         <div className="sub-style">
                             <h5 className="sub-title text-primary px-3">Immigration News</h5>
                         </div>
-                        <h1 className="display-5 mb-4">Monthly NewsLetter</h1>
-                        <p className="mb-0">Stay up-to-date with the latest news and updates on Canada’s immigration programs. From policy changes to new pathways for permanent residency, we provide insights to help you navigate the process.</p>
+                        <h1 className="display-5 mb-4">This Month in Canadian Immigration</h1>
+                        <p className="mb-0">VisaPrime’s Newsletters are tailored every month with latest Updates in Canadian Immigration. Subscribe today and never miss an Immigration Update.</p>
                     </div>
                     <div class="latest-news-carousel owl-carousel wow fadeInUp" data-wow-delay="0.1s">
                     {newsData.map((news) => (

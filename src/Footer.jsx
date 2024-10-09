@@ -68,8 +68,8 @@ const Footer = () => {
                                     <i className="fas fa-building me-2" style={{display:"inline-flex", paddingTop:"5px", color:"#FFF"}}></i><h4 className="text-secondary mb-4" style={{display:"inline-flex"}}>EDMONTON</h4>
                                 </div>
                                 <a><i className="fa fa-map-marker-alt me-2"></i> 4245 97 St NW #101, Edmonton, AB T6E 5Y7</a>
-                                <a><i className="fas fa-envelope me-2"></i> info@visaprime.ca</a>
-                                <a><i className="fas fa-phone me-2"></i> +1-825-777-4222</a>
+                                <a><i className="fas fa-envelope me-2"></i> edm@visaprime.ca</a>
+                                <a><i className="fas fa-phone me-2"></i> +1-780-750-5551</a>
                                 <a><i className="fas fa-clock me-2"></i> Mon - Fri : 10 AM - 5 PM</a>
                             </div>
                         </div>

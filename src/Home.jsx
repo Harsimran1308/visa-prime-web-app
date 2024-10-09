@@ -7,6 +7,9 @@ import Features from './Features';
 import ClientReviews from './ClientReviews';
 import HomeBlog from './HomeBlog';
 import HomeNews from './HomeNews';
+import BestImmigrationConsultant from './BestImmigrationConsultant';
+import ImmigrationConsultantBanner from './ImmigrationConsultantBanner';
+import ProgramsOverview from './ProgramsOverview';
 
 const Home = () => {
   return (
@@ -19,6 +22,9 @@ const Home = () => {
         <ClientReviews/>
         <HomeNews />
         <HomeBlog/>
+        <BestImmigrationConsultant/>
+        <ImmigrationConsultantBanner/>
+        <ProgramsOverview/>
     </div>
   );
 };

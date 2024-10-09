@@ -14,19 +14,20 @@ const Header = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <div className="navbar-nav ms-auto py-0">
-                    <a href="/" className="nav-item nav-link active">Home</a>
+                    <a href="/" className="nav-item nav-link">Home</a>
                     <div className="nav-item dropdown">
                         <a className="nav-link" data-bs-toggle="dropdown"><span href="/immigration-services" className="dropdown-toggle">Immigrate to Canada</span></a>
                             <div className="dropdown-menu m-0">
                                 <a href="/express-entry" className="dropdown-item">Express Entry</a>
-                                <a href="/pnp" className="dropdown-item">Provincial Nominee</a>
+                                <a href="/pnp" className="dropdown-item">Alberta Advantage Immigration Program</a>
                                 <a href="/lmia" className="dropdown-item">LMIA</a>
                                 <a href="/permanent-residence" className="dropdown-item">Permanent Residency</a>
                                 <a href="/work-permit" className="dropdown-item">Work Permit</a>
                                 <a href="/family-sponsorship" className="dropdown-item">Family Sponsorship</a>
                                 <a href="/study-permit" className="dropdown-item">Study Permit</a>
                                 <a href="/visitor-visa" className="dropdown-item">Visitor Visa</a>
-                                <a href="citizenship" className="dropdown-item">Citizenship</a>
+                                <a href="/citizenship" className="dropdown-item">Citizenship</a>
+                                <a href="/us-visa-oci" className="dropdown-item">US Visa & OCI </a>
                             </div>
                     </div>
                     <div className="nav-item dropdown">
@@ -39,6 +40,7 @@ const Header = () => {
                                 <a href="warehouse-operations" className="dropdown-item">Warehouse & Operations</a>
                             </div>
                     </div>
+                    <a href="/latest-news" className="nav-item nav-link">Immigration News</a>
                     <a href="/about" className="nav-item nav-link">About</a>
                     <a href="/contact" className="nav-item nav-link">Contact</a>
                 </div>

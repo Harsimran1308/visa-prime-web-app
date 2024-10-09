@@ -28,7 +28,7 @@ const CounterName = () => {
                         <div className="counter-content">
                             <h3>Team Members</h3>
                             <div className="d-flex align-items-center justify-content-center">
-                                <span className="counter-value" data-toggle="counter-up">4</span>
+                                <span className="counter-value" data-toggle="counter-up">12</span>
                             </div>
                         </div>
                     </div>
@@ -53,10 +53,9 @@ const CounterName = () => {
                             <i className="fas fa-handshake"></i>
                         </div>
                         <div className="counter-content">
-                            <h3>Success Rates</h3>
+                            <h3>Google Rating</h3>
                             <div className="d-flex align-items-center justify-content-center">
-                                <span className="counter-value" data-toggle="counter-up">100</span>
-                                <h4 className="text-secondary mb-0" style={{fontWeight: "600" , fontSize: "25px"}}>%</h4>
+                                <span className="counter-value" data-toggle="counter-up">4.9/5</span>
                             </div>
                         </div>
                     </div>

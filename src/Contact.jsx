@@ -77,9 +77,9 @@ const Contact = () => {
                             <div className="d-flex border-bottom mb-4 pb-4">
                                 <i className="fas fa-map-marked-alt fa-4x text-primary bg-light p-3 rounded"></i>
                                 <div className="ps-3">
-                                    <h5>Location</h5>
-                                    <p>9707 Franklin Avenue #207, Fort McMurray, AB T9H 2K1</p>
-                                    <p>4245 97 St NW #101, Edmonton, AB T6E 5Y7</p>
+                                    <h5>Locations</h5>
+                                    <p className="text-primary">9707 Franklin Avenue #207, Fort McMurray, AB T9H 2K1</p>
+                                    <p className="text-primary">4245 97 St NW #101, Edmonton, AB T6E 5Y7</p>
                                 </div>
                             </div>
                             <div className="row g-3">
@@ -94,7 +94,7 @@ const Contact = () => {
                                             </div>
                                             <div className="mb-3">
                                                 <h6 className="mb-0">Email:</h6>
-                                                <a className="fs-5 text-primary">info@primevisa.com</a>
+                                                <a className="fs-5 text-primary">info@visaprime.ca</a>
                                             </div>
                                         </div>
                                     </div>
@@ -106,7 +106,7 @@ const Contact = () => {
                                             <h5 className="mb-3">Opening Hrs</h5>
                                             <div className="mb-3">
                                                 <h6 className="mb-0">Mon - Friday:</h6>
-                                                <a className="fs-5 text-primary">10.00 am to 05.00 pm</a>
+                                                <a className="fs-5 text-primary">10.00 am to 05.30 pm</a>
                                             </div>
                                         </div>
                                     </div>
@@ -203,8 +203,8 @@ const Contact = () => {
                                     </div>
                                     <div className="office-content d-flex flex-column">
                                         <h4 className="mb-2">Edmonton</h4>
-                                        <a className="text-secondary fs-5 mb-2">+1 (825) 777-4222</a>
-                                        <a className="text-muted fs-5 mb-2">info@primevisa.ca</a>
+                                        <a className="text-secondary fs-5 mb-2">+1 (780) 750-5551</a>
+                                        <a className="text-muted fs-5 mb-2">edm@primevisa.ca</a>
                                         <p className="mb-0">4245 97 St NW #101, Edmonton, AB, Canada T6E 5Y7</p>
                                     </div>
                                 </div>

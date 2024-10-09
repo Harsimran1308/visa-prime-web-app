@@ -12,7 +12,7 @@ const ShortIntro = () => {
                     </div>
                     <div className="col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
                         <h5 className="sub-title pe-3">About the company</h5>
-                        <h1 className="display-5 mb-4">We’re Regulated RCIC Immigration Consultanty</h1>
+                        <h1 className="display-5 mb-4">We’re CICC Registered Immigration Consultancy</h1>
                         <p className="mb-4"> With expertise in Canada’s immigration system, we offer tailored services such as Permanent Residency (PR), Work Permits, Canadian Citizenship, Labour Market Impact Assessments (LMIA), and Provincial Nominee Programs (PNP). Our staffing solutions cater to diverse industries, providing temporary and permanent recruitment services to meet your workforce needs. Whether you’re seeking skilled professionals to grow your business or navigating the immigration process, we are here to ensure success every step of the way, connecting talent with opportunity and making Canada immigration seamless.</p>
                         <div className="row gy-4 align-items-center">
                             <div className="col-12 col-sm-6 d-flex align-items-center">

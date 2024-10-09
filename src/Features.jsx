@@ -27,7 +27,7 @@ const Features = () => {
                     <div className="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                         <div className="feature-item text-center p-4">
                             <div className="feature-icon p-3 mb-4">
-                                <i className="fab fa-cc-visa fa-4x text-primary"></i>
+                                <i className="fas fa-file fa-4x text-primary"></i>
                             </div>
                             <div className="feature-content d-flex flex-column">
                                 <h5 className="mb-3">Visa Assistance</h5>

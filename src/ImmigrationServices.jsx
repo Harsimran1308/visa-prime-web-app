@@ -12,8 +12,8 @@ const ImmigrationServices = () => {
         },
         {
             id: 2,
-            name: "Provisional Nominee",
-            description: "Increase your chances of Canadian immigration with the Provincial Nominee Program (PNP). Tailored for candidates with specific provincial job offers. Find out the eligibility criteria for different provinces.",
+            name: "Alberta Advantage Immigration program",
+            description: "The AAIP offers streams in key sectors, helping applicants secure provincial nomination and enhance their chances of Canadian permanent residency.",
             imgSrc: "/img/pnp-immigration.jpg",
             urlRedirect:"/pnp"
         },
@@ -65,6 +65,13 @@ const ImmigrationServices = () => {
             description: "Take the final step in your Canadian immigration journey by applying for Citizenship. Learn the eligibility criteria, process, and benefits of becoming a Canadian citizen.",
             imgSrc: "/img/citizenship.jpg",
             urlRedirect:"/citizenship"
+        },
+        {
+            id: 10,
+            name: "US Visa & OCI",
+            description: "We offer expert assistance for U.S. visa applications and Overseas Citizen of India (OCI) services, ensuring a smooth and hassle-free process. Our team provides personalized guidance to meet your immigration needs efficiently.",
+            imgSrc: "/img/united-states-visa.jpg",
+            urlRedirect:"/us-visa-oci"
         }
     ]
     const faqs = [
@@ -121,7 +128,7 @@ const ImmigrationServices = () => {
                         </div>
                         <div class="service-page-content p-4">
                             <div class="service-page-content-inner">
-                                <a href="#" class="d-inline-block h4 mb-4">{service.name}</a>
+                                <p class="d-inline-block h4 mb-4">{service.name}</p>
                                 <p class="mb-4">{service.description}</p>
                                 <a class="btn btn-primary rounded-pill py-2 px-4" href={service.urlRedirect}>Explore More</a>
                             </div>
