@@ -9,7 +9,6 @@ import StaffingServices from './StaffingServices';
 import About from './About';
 import Contact from './Contact';
 import Blogs from './Blogs';
-import ImmigrationDetails from './Blog-Details/ImmigrationDetails';
 import ExpressEntry from './Program-Details/ExpressEntry';
 import News from './News';
 import {NotificationContainer, NotificationManager} from 'react-notifications';
@@ -34,6 +33,10 @@ import VisitorVisa from './HomePrograms/VisitorVisa';
 import VisitorPermit from './Program-Details/VisitorPermit';
 import FamilySponsorshipPermit from './Program-Details/FamilySponsorshipPermit';
 import AlbertaPNP from './Program-Details/AlbertaPNP';
+import LocalRecruitment from './Staffing-Details/LocalRecruitment';
+import TemporaryForeignWorker from './Staffing-Details/TemporaryForeignWorker';
+import PGWPChanges from './Blog-Details/PGWPChanges';
+import TFWPChanges from './Blog-Details/TFWPChanges';
 
 function App() {
   return (
@@ -49,8 +52,22 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/latest-news" element={<News />} />
-        <Route path="/immigration-details" element={<ImmigrationDetails />} />
         <Route path="/express-entry" element={<ExpressEntry />} />
+        <Route path="/pnp" element={<AlbertaPNP />} />
+        <Route path="/lmia" element={<LMIA />} />
+        <Route path="/permanent-residence" element={<PermanentResidency />} />
+        <Route path="/work-permit" element={<WorkPermit />} />
+        <Route path="/study-permit" element={<StudyPermit />} />
+        <Route path="/visitor-visa" element={<VisitorPermit />} />
+        <Route path="/citizenship" element={<Citizenship />} />
+        <Route path="/family-sponsorship" element={<FamilySponsorshipPermit />} />
+        <Route path="/local-recruitment" element={<LocalRecruitment />} />
+        <Route path="/temporary-foriegn-worker" element={<TemporaryForeignWorker />} />
+        <Route path="/us-visa-oci" element={<UnderDevelopment />} />
+        {/* Blogs links */}
+        <Route path="/pgwp-changes" element={<PGWPChanges />} />
+        <Route path="/tfwp-changes" element={<TFWPChanges />} />
+        {/* Newsletter links */}
         <Route path="/newsletter-september-2024" element={<September2024 />}/>
         <Route path="/newsletter-august-2024" element={<August2024 />} />
         <Route path="/newsletter-july-2024" element={<July2024 />} />
@@ -61,20 +78,6 @@ function App() {
         <Route path="/newsletter-october-2023" element={<October2023 />} />
         <Route path="/newsletter-september-2023" element={<September2023 />} />
         <Route path="/newsletter-july-2023" element={<July2023 />} />
-        <Route path="/pnp" element={<AlbertaPNP />} />
-        <Route path="/lmia" element={<LMIA />} />
-        <Route path="/permanent-residence" element={<PermanentResidency />} />
-        <Route path="/work-permit" element={<WorkPermit />} />
-        <Route path="/study-permit" element={<StudyPermit />} />
-        <Route path="/visitor-visa" element={<VisitorPermit />} />
-        <Route path="/citizenship" element={<Citizenship />} />
-        <Route path="/family-sponsorship" element={<FamilySponsorshipPermit />} />
-        <Route path="/admin-clerk" element={<UnderDevelopment />} />
-        <Route path="/food-service-cooks" element={<UnderDevelopment />} />
-        <Route path="/general-labour" element={<UnderDevelopment />} />
-        <Route path="/dental-pharmacy-assistants" element={<UnderDevelopment />} />
-        <Route path="/warehouse-operations" element={<UnderDevelopment />} />
-        <Route path="/us-visa-oci" element={<UnderDevelopment />} />
       </Routes>
       <Footer />
     </Router>

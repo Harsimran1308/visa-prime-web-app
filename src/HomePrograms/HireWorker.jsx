@@ -16,7 +16,7 @@ const HireWorker = () => {
               >
                 <div className="border rounded" style={{ maxWidth: "100%" }}>
                   <img
-                    src="/img/food-service-cooks.jpg"
+                    src="/img/temporary-foriegn-worker.jpg"
                     className="rounded"
                     style={{ width: "100%", height: "auto" }}
                     alt="Citizenship"
@@ -45,7 +45,7 @@ const HireWorker = () => {
                 </p>
                 <a
                   className="btn btn-primary rounded-pill text-white py-3 px-5"
-                  href="/food-service-cooks"
+                  href="/temporary-foriegn-worker"
                   style={{ marginTop: "20px" }}
                 >
                   Explore Staffing Solutions

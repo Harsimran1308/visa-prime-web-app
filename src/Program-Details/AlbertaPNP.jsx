@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import ClientAssesmentForm from "../ClientAssesmentForm";
 
 const AlbertaPNP = () => {
   const sectionRefs = {
@@ -1871,6 +1872,9 @@ const AlbertaPNP = () => {
                     </li>
                   </ul>
                 </section>
+              </div>
+              <div className="client-assesment-form" style={{marginTop:"30px",marginBottom:"50px"}}>
+                <ClientAssesmentForm></ClientAssesmentForm>
               </div>
             </div>
           </div>

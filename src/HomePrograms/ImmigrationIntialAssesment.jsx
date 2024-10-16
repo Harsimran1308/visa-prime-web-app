@@ -18,7 +18,7 @@ const ImmigrationIntialAssesment = () => {
           </div>
           <div class="col-lg-4">
             <div class="d-flex align-items-center justify-content-lg-end h-100">
-              <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="https://book.squareup.com/appointments/khg9bqtfjxfazj/location/SK6MBAW63XB7V/services" target="_blank">
+              <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="https://forms.office.com/Pages/ResponsePage.aspx?id=skEt-A8v_0WQhyna8769N1x09eyGZvREvzyLVhlgZZFUQ1Q5WEk2VlUyNldVT0tDNEE5MDk1RVVHNyQlQCN0PWcu" target="_blank">
                 Take Intial Assessment
               </a>
             </div>

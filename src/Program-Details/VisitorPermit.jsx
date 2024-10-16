@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import ClientAssesmentForm from "../ClientAssesmentForm";
 
 const VisitorPermit = () => {
   const sectionRefs = {
@@ -579,6 +580,9 @@ const VisitorPermit = () => {
                     so we can understand your specific situation.
                   </p>
                 </section>
+              </div>
+              <div className="client-assesment-form" style={{marginTop:"30px",marginBottom:"50px"}}>
+                <ClientAssesmentForm></ClientAssesmentForm>
               </div>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import ClientAssesmentForm from "../ClientAssesmentForm";
 
 const PermanentResidency = () => {
   const sectionRefs = {
@@ -547,6 +548,9 @@ const PermanentResidency = () => {
                   <a className="article-navigation-link" href="https://thoughtleadership.rbc.com/a-growing-problem-how-to-align-canadas-immigration-with-the-future-economy/#:~:text=A%20steady%20stream%20of%20immigrants,be%20fueled%20entirely%20by%20immigration." target="_blank">A Growing Problem: How to align Canada’s immigration with the future economy - RBC Thought Leadership</a>
                   </p>
                 </section>
+              </div>
+              <div className="client-assesment-form" style={{marginTop:"30px",marginBottom:"50px"}}>
+                <ClientAssesmentForm></ClientAssesmentForm>
               </div>
             </div>
           </div>

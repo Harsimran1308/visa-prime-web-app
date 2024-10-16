@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import ClientAssesmentForm from "../ClientAssesmentForm";
 
 const WorkPermit = () => {
   const sectionRefs = {
@@ -585,7 +586,7 @@ const WorkPermit = () => {
                     our{" "}
                     <a
                       className="article-navigation-link"
-                      href="/food-service-cooks"
+                      href="/temporary-foriegn-worker"
                     >
                       Ultimate Guide for hiring Foreign Workers.
                     </a>
@@ -647,6 +648,9 @@ const WorkPermit = () => {
                     guidance.
                   </p>
                 </section>
+              </div>
+              <div className="client-assesment-form" style={{marginTop:"30px",marginBottom:"50px"}}>
+                <ClientAssesmentForm></ClientAssesmentForm>
               </div>
             </div>
           </div>

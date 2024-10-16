@@ -1,4 +1,6 @@
 import React, { useRef } from "react";
+import ClientReviews from "../ClientReviews";
+import EmployerAssesmentForm from "../EmployerAssesmentForm";
 
 const LMIA = () => {
   const sectionRefs = {
@@ -927,6 +929,12 @@ const LMIA = () => {
                     </li>
                   </ul>
                 </section>
+              </div>
+              <div className="reviews">
+                <ClientReviews></ClientReviews>
+              </div>
+              <div className="employee-form">
+                <EmployerAssesmentForm></EmployerAssesmentForm>
               </div>
             </div>
           </div>

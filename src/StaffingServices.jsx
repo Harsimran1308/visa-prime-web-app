@@ -5,40 +5,18 @@ const StaffingServices = () => {
     const serviceDetailsData= [
         {
             id: 1,
-            name: "Admin & Office Clerical",
-            description: "Administrative teams often get overlooked and taken for granted. However, without them, no department would operate efficiently and your office would be on the brink of chaos. We got you covered with staffing requirements in job post.",
+            name: "Local Recruitment",
+            description: "Finding the right talent for labor roles is essential for businesses, especially when navigating immigration processes. We specialize in connecting you with skilled workers locally, ensuring a smooth recruitment process that meets your staffing needs and supports your business growth.",
             imgSrc: "/img/admin-office-clerk.jpg",
-            urlRedirect:"/admin-clerk"
+            urlRedirect:"/local-recruitment"
         },
         {
             id: 2,
-            name: "Food Service & Cooks",
-            description: "Making guests smile when they enter and exit your establishment. That’s the name of the restaurant or hotel game. And it’s only possible with the right service, many of which we happen to know. Now it’s time for us to get to know your business.",
-            imgSrc: "/img/food-service-cooks.jpg",
-            urlRedirect:"/food-service-cooks"
+            name: "Temporary Foreign Worker",
+            description: "Navigating the Temporary Foreign Worker program can be complex, but we’re here to simplify it for you. Whether you're facing labor shortages in industries like agriculture, hospitality, construction, manufacturing, or retail, we specialize in connecting businesses with skilled international workers.",
+            imgSrc: "img/temporary-foriegn-worker.jpg",
+            urlRedirect:"/temporary-foriegn-worker"
         },
-        {
-            id: 4,
-            name: "General Labour & Drivers",
-            description: "Masters of moving, experts of expediting, denizens of delivery. Whatever you call them — transportation professionals work too — you need them, and we know them. Optimize your company’s supply chain by optimizing your transportation team. We’re happy to lend a hand.",
-            imgSrc: "/img/general-labour-driver.jpg",
-            urlRedirect:"/general-labour"
-        },
-        {
-            id: 5,
-            name: "Dental & Pharmacy Assistants",
-            description: "Whether it’s clerical or you need a helping hand with some experience. We make sure that you do your job right. Dentists and Pharmacists need assistance in and around the office all the time. From clerical staff to handling appointments we got you covered.",
-            imgSrc: "/img/dental-pharmacy-assistants.jpg",
-            urlRedirect:"/dental-pharmacy-assistants"
-        },
-        {
-            id: 7,
-            name: "Warehouse & Operations",
-            description: "It all starts in your warehouse. Well, much of the process, anyway. A distributor or end-user places an order and your warehouse starts buzzing with the sounds of voices, forklifts and loading dock doors. Then you hope your training and protocols make for a safe, efficient environment.",
-            imgSrc: "/img/warehouse-operations.jpg",
-            urlRedirect:"/warehouse-operations"
-        }
-
     ]
     const faqs = [
         {

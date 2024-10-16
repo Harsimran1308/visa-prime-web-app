@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import ClientAssesmentForm from "../ClientAssesmentForm";
 
 const StudyPermit = () => {
   const sectionRefs = {
@@ -388,6 +389,9 @@ const StudyPermit = () => {
                     for a free consultation!
                   </p>
                 </section>
+              </div>
+              <div className="client-assesment-form" style={{marginTop:"30px",marginBottom:"50px"}}>
+                <ClientAssesmentForm></ClientAssesmentForm>
               </div>
             </div>
           </div>

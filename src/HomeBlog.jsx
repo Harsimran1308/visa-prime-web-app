@@ -6,39 +6,21 @@ const HomeBlog = () => {
   const blogData = [
     {
       id: 1,
-      imgSrc: "img/blog-1.jpg",
-      author: "Ketan",
-      date: "10 September, 2024",
-      title: "How to get an Express Entry",
-      description: "Apply for express entry with the CRS score.",
-      redirectURl:"/immigration-details"
+      imgSrc: "img/blogs/pgwp-changes.jpg",
+      author: "Ketan Khaira",
+      date: "16 October, 2024",
+      title: "PGWP Changes in 2024: What you need to Know",
+      description: "The recent changes to Canada’s Post-Graduation Work Permit (PGWP) program are reshaping the landscape for international students. If you’re planning to study in Canada or are currently enrolled, understanding these changes and their potential impact on your future career is crucial. This blog post will break down the PGWP changes, explore the programs students should consider, and highlight potential pitfalls to avoid.",
+      redirectURl:"/pgwp-changes"
     },
     {
       id: 2,
-      imgSrc: "img/blog-2.jpg",
-      author: "Ketan",
-      date: "12 March, 2024",
-      title: "Apply for study permit",
-      description: "Apply for study permit",
-      redirectURl:"/immigration-details"
-    },
-    {
-        id: 3,
-        imgSrc: "img/blog-3.jpg",
-        author: "Ketan",
-        date: "1 August, 2024",
-        title: "Get an LMIA",
-        description: "Get an Labour Market assessment application and apply for work permit",
-        redirectURl:"/immigration-details"
-    },
-    {
-    id: 4,
-    imgSrc: "img/blog-4.jpg",
-    author: "Ketan",
-    date: "30 August, 2024",
-    title: "Get Canadian Citizenship",
-    description: "Apply for canadian citizenship and become canadian",
-    redirectURl:"/immigration-details"
+      imgSrc: "img/blogs/tfwp-changes.jpg",
+      author: "Ketan Khaira",
+      date: "10 October, 2024",
+      title: "Changes in the Temporary Foreign Worker Program",
+      description: "How Changes in the Temporary Foreign Worker Program Will Impact Businesses in Edmonton and Alberta: A Closer Look at LMIA Changes",
+      redirectURl:"/tfwp-changes"
     },
   ];
 
@@ -99,7 +81,7 @@ const HomeBlog = () => {
                             </div>
                             <div className="px-4 pb-0">
                                 <h4>{blog.title}</h4>
-                                <p>{blog.description}</p>
+                                <p className="truncate-text">{blog.description}</p>
                             </div>
                                 <div class="feature-content d-flex flex-column">
                                     <a class="btn btn-secondary rounded-pill" href={blog.redirectURl}>Read More<i class="fas fa-arrow-right ms-2"></i></a>

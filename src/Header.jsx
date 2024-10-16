@@ -33,11 +33,8 @@ const Header = () => {
                     <div className="nav-item dropdown">
                         <a href="/staffing-solutions" className="nav-link" data-bs-toggle="dropdown"><span className="dropdown-toggle">Staffing Solution</span></a>
                             <div className="dropdown-menu m-0">
-                                <a href="admin-clerk" className="dropdown-item">Admin & Office Clerical</a>
-                                <a href="food-service-cooks" className="dropdown-item">Food Service & Cooks</a>
-                                <a href="general-labour" className="dropdown-item">General Labour & Drivers</a>
-                                <a href="dental-pharmacy-assistants" className="dropdown-item">Dental & Pharmacy Assistants</a>
-                                <a href="warehouse-operations" className="dropdown-item">Warehouse & Operations</a>
+                                <a href="local-recruitment" className="dropdown-item">Local Recruitment</a>
+                                <a href="temporary-foriegn-worker" className="dropdown-item">Temporary Foreign Worker</a>
                             </div>
                     </div>
                     <a href="/latest-news" className="nav-item nav-link">Immigration News</a>
