@@ -16,7 +16,7 @@ const PGWPChanges = () => {
             <div className="col-12">
               <div className="details-image">
                 <img
-                  src="img/blogs/pgwp-changes.jpg"
+                  src="img/Blogs/pgwp-changes.jpg"
                   alt="pgwp-changes"
                   style={{
                     marginTop: "30px",

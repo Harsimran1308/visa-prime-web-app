@@ -16,7 +16,7 @@ const TFWPChanges = () => {
             <div className="col-12">
               <div className="details-image">
                 <img
-                  src="img/blogs/tfwp-changes.jpg"
+                  src="img/Blogs/tfwp-changes.jpg"
                   alt="tfwp-changes"
                   style={{
                     marginTop: "30px",

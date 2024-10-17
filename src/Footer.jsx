@@ -101,7 +101,8 @@ const Footer = () => {
                 <div className="container">
                     <div className="row g-4 align-items-center">
                         <div className="col-md-6 text-center" style={{width:"100%"}}>
-                            <span className="text-white"><a className="text-white"><i className="fas fa-copyright text-light me-2"></i>VisaPrime Consultancy</a>, All rights reserved.</span>
+                            <span className="text-white" style={{display:"inline-flex"}}><a className="text-white"><i className="fas fa-copyright text-light me-2"></i>VisaPrime Consultancy</a>, All rights reserved.</span>
+                            <span className="text-white" style={{display:"inline-flex", marginLeft:"5px"}}>Developed By<a className="article-navigation-link" href="https://www.singhharsimran.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:"underline",marginLeft:"5px"}}>Harsimran Singh</a></span>
                         </div>
                     </div>
                 </div>

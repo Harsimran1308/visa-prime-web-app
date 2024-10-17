@@ -6,7 +6,7 @@ const Blogs = () => {
   const [blogs] = useState([
     {
       id: 1,
-      imgSrc: "img/blogs/pgwp-changes.jpg",
+      imgSrc: "img/Blogs/pgwp-changes.jpg",
       author: "Ketan Khaira",
       date: "16 October, 2024",
       title: "PGWP Changes in 2024: What you need to Know",
@@ -17,7 +17,7 @@ const Blogs = () => {
     },
     {
       id: 2,
-      imgSrc: "img/blogs/tfwp-changes.jpg",
+      imgSrc: "img/Blogs/tfwp-changes.jpg",
       author: "Ketan Khaira",
       date: "10 October, 2024",
       title: "Changes in the Temporary Foreign Worker Program",
