@@ -97,7 +97,7 @@ const About = () => {
       ability to serve clients from diverse backgrounds. She speaks, English, Croatian,
       Bosnian, Serbian &amp; basic Spanish</p>
       `,
-      email: "info@visaprime.ca",
+      email: "edm@visaprime.ca",
       sclass: true,
     },
     {
