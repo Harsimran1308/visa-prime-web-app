@@ -189,7 +189,7 @@ const Contact = () => {
                                         <img src="img/fort-mcmurray.jpg" className="img-fluid w-100 rounded" alt="" />
                                     </div>
                                     <div className="office-content d-flex flex-column">
-                                        <h4 className="mb-2">Fort MC Murray</h4>
+                                        <h4 className="mb-2">Fort McMurray</h4>
                                         <a className="text-secondary fs-5 mb-2">+1 (780) 750-5551</a>
                                         <a className="text-muted fs-5 mb-2">info@visaprime.ca</a>
                                         <p className="mb-0">9707 Franklin Avenue #207, Fort McMurray, AB, Canada T9H 2K1</p>
