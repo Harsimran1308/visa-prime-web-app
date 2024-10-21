@@ -80,7 +80,7 @@ const About = () => {
     {
       id: 4,
       imgSrc: "img/natasa-team-member.jpg",
-      name: "Natasa Bizic",
+      name: "Natasa Simin",
       desc: `
       <p>Natasa Simin is a highly skilled RCIC,R708102,  with a unique perspective, having
       originally come from Serbia. With years of experience in the immigration field,
