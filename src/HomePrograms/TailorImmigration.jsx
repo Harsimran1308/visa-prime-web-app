@@ -37,12 +37,12 @@ const TailorImmigration = () => {
                 VisaPrime Consultancy's tailored Immigration Solutions for you to reach your goals
                 </strong>
               </h1>
-              <p>Are you looking for an immigration consultant in Edmonton?</p>
+              <p>Are you looking for an Immigration Consultancy in Edmonton?</p>
               <p>
-              VisaPrime Consultancy in Edmonton stands true to its promise, with leading consultants on board to help you achieve your Immigration goals. As an Immigration consultant company, our process is easy and transparent, and our clients are informed about every step of the way by our dedicated professionals committed to taking care of your immigration needs.
+              VisaPrime Consultancy in Edmonton stands true to its promise, with leading consultants on board to help you achieve your Immigration goals. As an Immigration Consultancy company, our process is easy and transparent, and our clients are informed about every step of the way by our dedicated professionals committed to taking care of your immigration needs.
               </p>
               <p className="mb-4">
-              We understand just how important your journey is. Whether it’s an Express entry, a Temporary foreign worker spot, a Study visa, a Temporary resident visa, or a Citizenship application, our dedicated team of top Immigration consultants in Edmonton is here to make the process easier for you.
+              We understand just how important your journey is. Whether it’s an Express Entry, a Temporary foreign worker spot, a Study visa, a Temporary resident visa, or a Citizenship application, our dedicated team of top Immigration consultants in Edmonton is here to make the process easier for you.
               </p>
             </div>
           </div>

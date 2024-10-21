@@ -24,7 +24,7 @@ const VisaCategories = () => {
             name:"Work Permit",
             redirectUrl:"/work-permit",
             imgSrc:"img/work-permit.jpg",
-            descrioption:"The work permit program in Canada enables foreign nationals to work legally in the country for a specific employer and duration.",
+            descrioption:"The Work Permit Program in Canada enables foreign nationals to legally work in Canada, offering opportunities to gain valuable experience while contributing to the Canadian economy.",
             altImgData:"Work Permit Photo"
         },
         {
@@ -45,7 +45,7 @@ const VisaCategories = () => {
         },
         {
             id:"6",
-            name:"Tourist Visa",
+            name:"Visitor Visa",
             redirectUrl:"/visitor-visa",
             imgSrc:"/img/visitor-visa.jpg",
             descrioption:"A Canadian tourist visa allows visitors to explore Canada for a temporary period while enjoying its diverse attractions and experiences.",

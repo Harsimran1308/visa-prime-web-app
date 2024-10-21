@@ -20,7 +20,7 @@ const StudyVisa = () => {
             </strong>
           </h1>
           <p>
-          Choosing Canada for your Graduation or Post Graduation Degree or Diploma has its benefits. Every year more than 100K students arrive in Canada for higher studies. The Immigration process have become easier for International Students. 
+          Choosing Canada for your Graduation or Post Graduation Degree or Diploma has its benefits. Every year more than 100K students arrive in Canada for higher studies, helping the world to achieve higher education. 
           </p>
           <p>
           Known worldwide, Canada is a prime locale for higher studies. A study permit here opens a wealth of immigration options. Plus, a work permit after your studies propels you towards permanent residency faster.

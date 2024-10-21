@@ -31,13 +31,20 @@ const Header = () => {
                             </div>
                     </div>
                     <div className="nav-item dropdown">
-                        <a href="/staffing-solutions" className="nav-link" data-bs-toggle="dropdown"><span className="dropdown-toggle">Staffing Solution</span></a>
+                        <a href="/staffing-solutions" className="nav-link" data-bs-toggle="dropdown"><span className="dropdown-toggle">Staffing Solutions</span></a>
                             <div className="dropdown-menu m-0">
                                 <a href="local-recruitment" className="dropdown-item">Local Recruitment</a>
                                 <a href="temporary-foriegn-worker" className="dropdown-item">Temporary Foreign Worker</a>
                             </div>
                     </div>
-                    <a href="/latest-news" className="nav-item nav-link">Immigration News</a>
+
+                    <div className="nav-item dropdown">
+                        <a href="" className="nav-link" data-bs-toggle="dropdown"><span className="dropdown-toggle">Immigration News</span></a>
+                            <div className="dropdown-menu m-0">
+                                <a href="/latest-news" className="dropdown-item">Immigration Newsletter</a>
+                                <a href="/blogs" className="dropdown-item">Blogs</a>
+                            </div>
+                    </div>
                     <a href="/about" className="nav-item nav-link">About</a>
                     <a href="/contact" className="nav-item nav-link">Contact</a>
                 </div>

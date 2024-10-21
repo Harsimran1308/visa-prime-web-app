@@ -179,7 +179,7 @@ const Contact = () => {
                             <div className="sub-style">
                                 <h5 className="sub-title text-primary px-3">Our Offices</h5>
                             </div>
-                            <h1 className="display-5 mb-4">Explore Our Office in Canada</h1>
+                            <h1 className="display-5 mb-4">Explore Our Offices in Canada</h1>
                             <p className="mb-0">Visit our office in Canada for personalized immigration services. Our team is ready to assist you with all your immigration needs, from consultations to application support. Stop by and explore how we can help make your immigration journey smoother.</p>
                         </div>
                         <div className="row g-4 justify-content-center">
@@ -191,7 +191,7 @@ const Contact = () => {
                                     <div className="office-content d-flex flex-column">
                                         <h4 className="mb-2">Fort MC Murray</h4>
                                         <a className="text-secondary fs-5 mb-2">+1 (780) 750-5551</a>
-                                        <a className="text-muted fs-5 mb-2">info@primevisa.ca</a>
+                                        <a className="text-muted fs-5 mb-2">info@visaprime.ca</a>
                                         <p className="mb-0">9707 Franklin Avenue #207, Fort McMurray, AB, Canada T9H 2K1</p>
                                     </div>
                                 </div>
@@ -204,7 +204,7 @@ const Contact = () => {
                                     <div className="office-content d-flex flex-column">
                                         <h4 className="mb-2">Edmonton</h4>
                                         <a className="text-secondary fs-5 mb-2">+1 (780) 750-5551</a>
-                                        <a className="text-muted fs-5 mb-2">edm@primevisa.ca</a>
+                                        <a className="text-muted fs-5 mb-2">edm@visaprime.ca</a>
                                         <p className="mb-0">4245 97 St NW #101, Edmonton, AB, Canada T6E 5Y7</p>
                                     </div>
                                 </div>
