@@ -37,6 +37,7 @@ import LocalRecruitment from './Staffing-Details/LocalRecruitment';
 import TemporaryForeignWorker from './Staffing-Details/TemporaryForeignWorker';
 import PGWPChanges from './Blog-Details/PGWPChanges';
 import TFWPChanges from './Blog-Details/TFWPChanges';
+import USVisaOCI from './Program-Details/USVisaOCI';
 
 function App() {
   return (
@@ -63,7 +64,7 @@ function App() {
         <Route path="/family-sponsorship" element={<FamilySponsorshipPermit />} />
         <Route path="/local-recruitment" element={<LocalRecruitment />} />
         <Route path="/temporary-foriegn-worker" element={<TemporaryForeignWorker />} />
-        <Route path="/us-visa-oci" element={<UnderDevelopment />} />
+        <Route path="/us-visa-oci" element={<USVisaOCI />} />
         {/* Blogs links */}
         <Route path="/pgwp-changes" element={<PGWPChanges />} />
         <Route path="/tfwp-changes" element={<TFWPChanges />} />
