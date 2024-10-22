@@ -53,7 +53,7 @@ const Footer = () => {
                                 <a><i className="fa fa-map-marker-alt me-2"></i> 9707 Franklin Avenue #207, Fort McMurray, AB T9H 2K1</a>
                                 <a><i className="fas fa-envelope me-2"></i> info@visaprime.ca</a>
                                 <a><i className="fas fa-phone me-2"></i> +1-780-750-5551</a>
-                                <a><i className="fas fa-clock me-2"></i> Mon - Fri : 10 AM - 5 PM</a>
+                                <a><i className="fas fa-clock me-2"></i> Mon - Fri : 10:00 AM - 5:30 PM</a>
                                 <div className="d-flex align-items-center" style={{marginTop:"5px"}}>
                                     <i className="fas fa-share fa-2x text-secondary me-2"></i>
                                     <a className="btn mx-1" href="https://www.facebook.com/visaprime.consultancy/" target="_blank"><i className="fab fa-facebook-f"></i></a>
@@ -70,7 +70,7 @@ const Footer = () => {
                                 <a><i className="fa fa-map-marker-alt me-2"></i> 4245 97 St NW #101, Edmonton, AB T6E 5Y7</a>
                                 <a><i className="fas fa-envelope me-2"></i> edm@visaprime.ca</a>
                                 <a><i className="fas fa-phone me-2"></i> +1-780-750-5551</a>
-                                <a><i className="fas fa-clock me-2"></i> Mon - Fri : 10 AM - 5 PM</a>
+                                <a><i className="fas fa-clock me-2"></i> Mon - Fri : 10:00 AM - 5:30 PM</a>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-6 col-xl-3">
