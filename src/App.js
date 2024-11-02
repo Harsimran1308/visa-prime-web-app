@@ -39,6 +39,7 @@ import PGWPChanges from './Blog-Details/PGWPChanges';
 import TFWPChanges from './Blog-Details/TFWPChanges';
 import USVisaOCI from './Program-Details/USVisaOCI';
 import October2024 from './Newsletter/October2024';
+import November2024 from './Newsletter/November2024';
 
 function App() {
   return (
@@ -70,6 +71,7 @@ function App() {
         <Route path="/pgwp-changes" element={<PGWPChanges />} />
         <Route path="/tfwp-changes" element={<TFWPChanges />} />
         {/* Newsletter links */}
+        <Route path="/newsletter-november-2024" element={<November2024 />}/>
         <Route path="/newsletter-october-2024" element={<October2024 />}/>
         <Route path="/newsletter-september-2024" element={<September2024 />}/>
         <Route path="/newsletter-august-2024" element={<August2024 />} />

@@ -6,6 +6,15 @@ const HomeNews = () => {
   const newsData = [
     {
       id: 1,
+      imgSrc: "/img/Newsletter/Lebanon.png",
+      author: "Ketan Khaira",
+      date: "1 November, 2024",
+      description:
+        "Canada’s New Immigration Measures to Support Those Affected by the Lebanon Crisis",
+      redirectUrl: "/newsletter-november-2024",
+    },
+    {
+      id: 2,
       imgSrc: "/img/Newsletter/immigration-changes-2024.jpg",
       author: "Puneet Othi",
       date: "25 October, 2024",
@@ -14,7 +23,7 @@ const HomeNews = () => {
       redirectUrl: "/newsletter-october-2024",
     },
     {
-      id: 2,
+      id: 3,
       imgSrc: "/img/Newsletter/immigration-policies-uncertainity-news.jpg",
       author: "Jas Dhaliwal",
       date: "5 September, 2024",
@@ -23,21 +32,13 @@ const HomeNews = () => {
       redirectUrl: "/newsletter-september-2024",
     },
     {
-      id: 3,
+      id: 4,
       imgSrc: "/img/Newsletter/measure-combat-fraud-in-immigration.jpg",
       author: "Puneet Othi",
       date: "6 August, 2024",
       description:
         "New Measures to combat fraud in Temporary Foreign Worker Program",
       redirectUrl: "/newsletter-august-2024",
-    },
-    {
-      id: 4,
-      imgSrc: "/img/Newsletter/immigration-backlog-increase-news.jpg",
-      author: "Mary Anne",
-      date: "5 July, 2024",
-      description: "Immigration backlog starts increasing again",
-      redirectUrl: "/newsletter-july-2024",
     },
   ];
 

@@ -5,6 +5,15 @@ const News = () => {
   // Sample data array
   const [newsData] = useState([
     {
+      id: 12,
+      imgSrc: "/img/Newsletter/Lebanon.png",
+      author: "Ketan Khaira",
+      date: "1 November, 2024",
+      description:
+        "Canada’s New Immigration Measures to Support Those Affected by the Lebanon Crisis",
+      redirectUrl: "/newsletter-november-2024",
+    },
+    {
       id: 11,
       imgSrc: "/img/Newsletter/immigration-changes-2024.jpg",
       author: "Puneet Othi",
