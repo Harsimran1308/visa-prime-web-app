@@ -6,17 +6,29 @@ const Blogs = () => {
   const [blogs] = useState([
     {
       id: 1,
+      imgSrc: "img/Blogs/Canada-Study-Permit-New-Rules.png",
+      author: "Ketan Khaira",
+      date: "25 November, 2024",
+      title:
+        "New Post-Graduation Work Permit Requirements for 2025",
+      description:
+        "Canada continues to be a top destination for international students, offering a welcoming environment, high-quality educational institutions, and the potential for work or immigration opportunities post-graduation. With an increasing number of students choosing Canada for their studies, it is crucial that the International Student Program (ISP) remains sustainable and fair.",
+      redirectSource: "/new-pgwp-changes",
+      tags: ["pgpw", "study permit"],
+    },
+    {
+      id: 2,
       imgSrc: "img/Blogs/pgwp-changes.jpg",
       author: "Ketan Khaira",
       date: "16 October, 2024",
       title: "PGWP Changes in 2024: What you need to Know",
       description:
         "The recent changes to Canada’s Post-Graduation Work Permit (PGWP) program are reshaping the landscape for international students. If you’re planning to study in Canada or are currently enrolled, understanding these changes and their potential impact on your future career is crucial. This blog post will break down the PGWP changes, explore the programs students should consider, and highlight potential pitfalls to avoid.",
-      tags: ["pgpw", "study permit",],
+      tags: ["pgpw", "study permit"],
       redirectSource: "/pgwp-changes",
     },
     {
-      id: 2,
+      id: 3,
       imgSrc: "img/Blogs/tfwp-changes.jpg",
       author: "Ketan Khaira",
       date: "10 October, 2024",

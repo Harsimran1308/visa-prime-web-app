@@ -37,6 +37,7 @@ import LocalRecruitment from './Staffing-Details/LocalRecruitment';
 import TemporaryForeignWorker from './Staffing-Details/TemporaryForeignWorker';
 import PGWPChanges from './Blog-Details/PGWPChanges';
 import TFWPChanges from './Blog-Details/TFWPChanges';
+import StudyPermitChanges from './Blog-Details/StudyPermitChanges';
 import USVisaOCI from './Program-Details/USVisaOCI';
 import October2024 from './Newsletter/October2024';
 import November2024 from './Newsletter/November2024';
@@ -70,6 +71,7 @@ function App() {
         {/* Blogs links */}
         <Route path="/pgwp-changes" element={<PGWPChanges />} />
         <Route path="/tfwp-changes" element={<TFWPChanges />} />
+        <Route path="/new-pgwp-changes" element={<StudyPermitChanges />} />
         {/* Newsletter links */}
         <Route path="/newsletter-november-2024" element={<November2024 />}/>
         <Route path="/newsletter-october-2024" element={<October2024 />}/>
