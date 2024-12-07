@@ -6,6 +6,28 @@ const Blogs = () => {
   const [blogs] = useState([
     {
       id: 1,
+      imgSrc: "img/Blogs/Alberta-immigration.png",
+      author: "Mary Anne",
+      date: "7 December, 2024",
+      title:
+        "Alberta's 2024 EOI Draws for Immigration",
+      description:
+        "In 2024, Alberta introduced a new EOI system for managing applications through the Alberta Immigrant Nominee Program (AINP). This system replaces the previous first-come, first-served approach with a more structured process, where candidates are ranked based on a variety of factors such as their job offer, work experience, education, and language skills.",
+        redirectSource: "/alberta-immigration-draws",
+    },
+  {
+    id: 2,
+    imgSrc: "img/Blogs/Alberta-rural-immigration.png",
+    author: "Puneet Othi",
+    date: "7 December, 2024",
+    title:
+      "The Future of Alberta’s Rural Communities",
+    description:
+      "Canada’s Rural Renewal Stream has been a crucial immigration pathway designed to support rural communities, helping them grow economically and socially. It has been a vital tool for smaller towns across Canada that face labor shortages and population decline. However, recent changes in Canada’s immigration policies, particularly in Alberta, have introduced new challenges for rural areas.",
+      redirectSource: "/alberta-rural-immigration",
+  },
+    {
+      id: 3,
       imgSrc: "img/Blogs/Canada-Study-Permit-New-Rules.png",
       author: "Ketan Khaira",
       date: "25 November, 2024",
@@ -17,7 +39,7 @@ const Blogs = () => {
       tags: ["pgpw", "study permit"],
     },
     {
-      id: 2,
+      id: 4,
       imgSrc: "img/Blogs/pgwp-changes.jpg",
       author: "Ketan Khaira",
       date: "16 October, 2024",
@@ -28,7 +50,7 @@ const Blogs = () => {
       redirectSource: "/pgwp-changes",
     },
     {
-      id: 3,
+      id: 5,
       imgSrc: "img/Blogs/tfwp-changes.jpg",
       author: "Ketan Khaira",
       date: "10 October, 2024",

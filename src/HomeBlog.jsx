@@ -4,8 +4,30 @@ import "./HomeBlog.css";
 const HomeBlog = () => {
   // Sample data array
   const blogData = [
+{
+    id: 1,
+    imgSrc: "img/Blogs/Alberta-immigration.png",
+    author: "Mary Anne",
+    date: "7 December, 2024",
+    title:
+      "Alberta's 2024 EOI Draws for Immigration",
+    description:
+      "In 2024, Alberta introduced a new EOI system for managing applications through the Alberta Immigrant Nominee Program (AINP). This system replaces the previous first-come, first-served approach with a more structured process, where candidates are ranked based on a variety of factors such as their job offer, work experience, education, and language skills.",
+    redirectURl: "/alberta-immigration-draws",
+  },
+{
+  id: 2,
+  imgSrc: "img/Blogs/Alberta-rural-immigration.png",
+  author: "Puneet Othi",
+  date: "7 December, 2024",
+  title:
+    "The Future of Alberta’s Rural Communities",
+  description:
+    "Canada’s Rural Renewal Stream has been a crucial immigration pathway designed to support rural communities, helping them grow economically and socially. It has been a vital tool for smaller towns across Canada that face labor shortages and population decline. However, recent changes in Canada’s immigration policies, particularly in Alberta, have introduced new challenges for rural areas.",
+  redirectURl: "/alberta-rural-immigration",
+},
     {
-      id: 1,
+      id: 3,
       imgSrc: "img/Blogs/Canada-Study-Permit-New-Rules.png",
       author: "Ketan Khaira",
       date: "25 November, 2024",
@@ -16,7 +38,7 @@ const HomeBlog = () => {
       redirectURl: "/new-pgwp-changes",
     },
     {
-      id: 2,
+      id: 4,
       imgSrc: "img/Blogs/pgwp-changes.jpg",
       author: "Ketan Khaira",
       date: "16 October, 2024",
@@ -24,17 +46,7 @@ const HomeBlog = () => {
       description:
         "The recent changes to Canada’s Post-Graduation Work Permit (PGWP) program are reshaping the landscape for international students. If you’re planning to study in Canada or are currently enrolled, understanding these changes and their potential impact on your future career is crucial. This blog post will break down the PGWP changes, explore the programs students should consider, and highlight potential pitfalls to avoid.",
       redirectURl: "/pgwp-changes",
-    },
-    {
-      id: 3,
-      imgSrc: "img/Blogs/tfwp-changes.jpg",
-      author: "Ketan Khaira",
-      date: "10 October, 2024",
-      title: "Changes in the Temporary Foreign Worker Program",
-      description:
-        "How Changes in the Temporary Foreign Worker Program Will Impact Businesses in Edmonton and Alberta: A Closer Look at LMIA Changes",
-      redirectURl: "/tfwp-changes",
-    },
+    }
   ];
 
   useEffect(() => {
