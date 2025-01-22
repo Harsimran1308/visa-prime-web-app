@@ -43,6 +43,8 @@ import October2024 from './Newsletter/October2024';
 import November2024 from './Newsletter/November2024';
 import AlbertaImmigrationDraw from './Blog-Details/AlbertaImmigrationDraw';
 import AlbertaRuralImmigration from './Blog-Details/AlbertaRuralImmigration';
+import CanadaImmigrationUturn from './Blog-Details/CanadaImmigrationUturn';
+import TrumpImmigrationCanada from './Blog-Details/TrumpImmigrationCanada';
 
 function App() {
   return (
@@ -76,6 +78,8 @@ function App() {
         <Route path="/new-pgwp-changes" element={<StudyPermitChanges />} />
         <Route path="/alberta-immigration-draws" element={<AlbertaImmigrationDraw/>} />
         <Route path="/alberta-rural-immigration" element={<AlbertaRuralImmigration/>} />
+        <Route path="/canada-immigration-uturn" element={<CanadaImmigrationUturn/>} />
+        <Route path="/trump-policies-canadian-immigration" element={<TrumpImmigrationCanada/>} />
         {/* Newsletter links */}
         <Route path="/newsletter-november-2024" element={<November2024 />}/>
         <Route path="/newsletter-october-2024" element={<October2024 />}/>

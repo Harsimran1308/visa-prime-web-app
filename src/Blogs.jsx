@@ -6,6 +6,28 @@ const Blogs = () => {
   const [blogs] = useState([
     {
       id: 1,
+      imgSrc: "img/Blogs/Canada's-Immigration-U-Turn.png",
+      author: "Puneet Othi",
+      date: "20 Jan, 2025",
+      title:
+        "Canada's Immigration U-Turn",
+      description:
+        "On July 26, 2023, Marc Miller assumed the position of Minister of Immigration, Refugees and Citizenship after replacing Sean Fraser. His appointment marked the beginning of a series of significant changes in Canada’s immigration policies. Below is a recap of the key actions and shifts that have taken place under his leadership, illustrating how swiftly these changes were implemented:",
+        redirectURl: "/canada-immigration-uturn",
+    },
+  {
+    id: 2,
+    imgSrc: "img/Blogs/Trump-Affect-Canadian-Immigration.jpg",
+    author: "Ketan Khaira",
+    date: "20 Jan, 2024",
+    title:
+      "Trump's Policies Affect Canadian Immigration",
+    description:
+      "As of January 20, 2025, President Donald J. Trump has officially been sworn in for his second term. His approach to trade and immigration promises to create significant challenges for Canada. With his aggressive stance on imposing tariffs and reshaping international relations, Trump’s policies are set to ripple across borders. For Canada, these policies could change the landscape of immigration and economic dynamics.",
+    redirectURl: "/trump-policies-canadian-immigration",
+  },
+    {
+      id: 3,
       imgSrc: "img/Blogs/Alberta-immigration.png",
       author: "Mary Anne",
       date: "7 December, 2024",
@@ -13,10 +35,10 @@ const Blogs = () => {
         "Alberta's 2024 EOI Draws for Immigration",
       description:
         "In 2024, Alberta introduced a new EOI system for managing applications through the Alberta Immigrant Nominee Program (AINP). This system replaces the previous first-come, first-served approach with a more structured process, where candidates are ranked based on a variety of factors such as their job offer, work experience, education, and language skills.",
-        redirectSource: "/alberta-immigration-draws",
+        redirectURl: "/alberta-immigration-draws",
     },
   {
-    id: 2,
+    id: 4,
     imgSrc: "img/Blogs/Alberta-rural-immigration.png",
     author: "Puneet Othi",
     date: "7 December, 2024",
@@ -24,10 +46,10 @@ const Blogs = () => {
       "The Future of Alberta’s Rural Communities",
     description:
       "Canada’s Rural Renewal Stream has been a crucial immigration pathway designed to support rural communities, helping them grow economically and socially. It has been a vital tool for smaller towns across Canada that face labor shortages and population decline. However, recent changes in Canada’s immigration policies, particularly in Alberta, have introduced new challenges for rural areas.",
-      redirectSource: "/alberta-rural-immigration",
+      redirectURl: "/alberta-rural-immigration",
   },
     {
-      id: 3,
+      id: 5,
       imgSrc: "img/Blogs/Canada-Study-Permit-New-Rules.png",
       author: "Ketan Khaira",
       date: "25 November, 2024",
@@ -35,11 +57,11 @@ const Blogs = () => {
         "New Post-Graduation Work Permit Requirements for 2025",
       description:
         "Canada continues to be a top destination for international students, offering a welcoming environment, high-quality educational institutions, and the potential for work or immigration opportunities post-graduation. With an increasing number of students choosing Canada for their studies, it is crucial that the International Student Program (ISP) remains sustainable and fair.",
-      redirectSource: "/new-pgwp-changes",
+      redirectURl: "/new-pgwp-changes",
       tags: ["pgpw", "study permit"],
     },
     {
-      id: 4,
+      id: 6,
       imgSrc: "img/Blogs/pgwp-changes.jpg",
       author: "Ketan Khaira",
       date: "16 October, 2024",
@@ -47,10 +69,10 @@ const Blogs = () => {
       description:
         "The recent changes to Canada’s Post-Graduation Work Permit (PGWP) program are reshaping the landscape for international students. If you’re planning to study in Canada or are currently enrolled, understanding these changes and their potential impact on your future career is crucial. This blog post will break down the PGWP changes, explore the programs students should consider, and highlight potential pitfalls to avoid.",
       tags: ["pgpw", "study permit"],
-      redirectSource: "/pgwp-changes",
+      redirectURl: "/pgwp-changes",
     },
     {
-      id: 5,
+      id: 7,
       imgSrc: "img/Blogs/tfwp-changes.jpg",
       author: "Ketan Khaira",
       date: "10 October, 2024",
@@ -58,7 +80,7 @@ const Blogs = () => {
       description:
         "How Changes in the Temporary Foreign Worker Program Will Impact Businesses in Edmonton and Alberta: A Closer Look at LMIA Changes",
       tags: ["tfwp", "canada"],
-      redirectSource: "/tfwp-changes",
+      redirectURl: "/tfwp-changes",
     },
   ]);
   // Search input state
@@ -140,7 +162,7 @@ const Blogs = () => {
                       <div class="feature-content d-flex flex-column">
                         <a
                           class="btn btn-secondary rounded-pill"
-                          href={blog.redirectSource}
+                          href={blog.redirectURl}
                         >
                           Read More<i class="fas fa-arrow-right ms-2"></i>
                         </a>

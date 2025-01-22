@@ -4,8 +4,30 @@ import "./HomeBlog.css";
 const HomeBlog = () => {
   // Sample data array
   const blogData = [
+    {
+      id: 1,
+      imgSrc: "img/Blogs/Canada's-Immigration-U-Turn.png",
+      author: "Puneet Othi",
+      date: "20 Jan, 2025",
+      title:
+        "Canada's Immigration U-Turn",
+      description:
+        "On July 26, 2023, Marc Miller assumed the position of Minister of Immigration, Refugees and Citizenship after replacing Sean Fraser. His appointment marked the beginning of a series of significant changes in Canada’s immigration policies. Below is a recap of the key actions and shifts that have taken place under his leadership, illustrating how swiftly these changes were implemented:",
+      redirectURl: "/canada-immigration-uturn",
+    },
+  {
+    id: 2,
+    imgSrc: "img/Blogs/Trump-Affect-Canadian-Immigration.jpg",
+    author: "Ketan Khaira",
+    date: "20 Jan, 2024",
+    title:
+      "Trump's Policies Affect Canadian Immigration",
+    description:
+      "As of January 20, 2025, President Donald J. Trump has officially been sworn in for his second term. His approach to trade and immigration promises to create significant challenges for Canada. With his aggressive stance on imposing tariffs and reshaping international relations, Trump’s policies are set to ripple across borders. For Canada, these policies could change the landscape of immigration and economic dynamics.",
+    redirectURl: "/trump-policies-canadian-immigration",
+  },
 {
-    id: 1,
+    id: 3,
     imgSrc: "img/Blogs/Alberta-immigration.png",
     author: "Mary Anne",
     date: "7 December, 2024",
@@ -16,7 +38,7 @@ const HomeBlog = () => {
     redirectURl: "/alberta-immigration-draws",
   },
 {
-  id: 2,
+  id: 4,
   imgSrc: "img/Blogs/Alberta-rural-immigration.png",
   author: "Puneet Othi",
   date: "7 December, 2024",
@@ -25,28 +47,7 @@ const HomeBlog = () => {
   description:
     "Canada’s Rural Renewal Stream has been a crucial immigration pathway designed to support rural communities, helping them grow economically and socially. It has been a vital tool for smaller towns across Canada that face labor shortages and population decline. However, recent changes in Canada’s immigration policies, particularly in Alberta, have introduced new challenges for rural areas.",
   redirectURl: "/alberta-rural-immigration",
-},
-    {
-      id: 3,
-      imgSrc: "img/Blogs/Canada-Study-Permit-New-Rules.png",
-      author: "Ketan Khaira",
-      date: "25 November, 2024",
-      title:
-        "New Post-Graduation Work Permit Requirements for 2025",
-      description:
-        "Canada continues to be a top destination for international students, offering a welcoming environment, high-quality educational institutions, and the potential for work or immigration opportunities post-graduation. With an increasing number of students choosing Canada for their studies, it is crucial that the International Student Program (ISP) remains sustainable and fair.",
-      redirectURl: "/new-pgwp-changes",
-    },
-    {
-      id: 4,
-      imgSrc: "img/Blogs/pgwp-changes.jpg",
-      author: "Ketan Khaira",
-      date: "16 October, 2024",
-      title: "PGWP Changes in 2024: What you need to Know",
-      description:
-        "The recent changes to Canada’s Post-Graduation Work Permit (PGWP) program are reshaping the landscape for international students. If you’re planning to study in Canada or are currently enrolled, understanding these changes and their potential impact on your future career is crucial. This blog post will break down the PGWP changes, explore the programs students should consider, and highlight potential pitfalls to avoid.",
-      redirectURl: "/pgwp-changes",
-    }
+}
   ];
 
   useEffect(() => {
