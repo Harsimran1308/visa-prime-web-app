@@ -6,6 +6,17 @@ const HomeBlog = () => {
   const blogData = [
     {
       id: 1,
+      imgSrc: "img/Blogs/made-in-canada.png",
+      author: "Ketan Khaira",
+      date: "20 Feb, 2025",
+      title:
+        "Made in Canada - By Foriegn Workers",
+      description:
+        "Canada’s economy thrives on hard work, dedication, and innovation. From bustling urban centers to small-town bakeries, many of the products we love are made possible by foreign workers who have chosen Canada as their new home. However, recent changes to immigration programs are threatening their ability to stay and continue contributing to the workforce",
+      redirectURl: "/made-in-canada",
+    },
+    {
+      id: 2,
       imgSrc: "img/Blogs/Canada's-Immigration-U-Turn.png",
       author: "Puneet Othi",
       date: "20 Jan, 2025",
@@ -16,7 +27,7 @@ const HomeBlog = () => {
       redirectURl: "/canada-immigration-uturn",
     },
   {
-    id: 2,
+    id: 3,
     imgSrc: "img/Blogs/Trump-Affect-Canadian-Immigration.jpg",
     author: "Ketan Khaira",
     date: "20 Jan, 2024",
@@ -27,7 +38,7 @@ const HomeBlog = () => {
     redirectURl: "/trump-policies-canadian-immigration",
   },
 {
-    id: 3,
+    id: 4,
     imgSrc: "img/Blogs/Alberta-immigration.png",
     author: "Mary Anne",
     date: "7 December, 2024",
@@ -37,17 +48,6 @@ const HomeBlog = () => {
       "In 2024, Alberta introduced a new EOI system for managing applications through the Alberta Immigrant Nominee Program (AINP). This system replaces the previous first-come, first-served approach with a more structured process, where candidates are ranked based on a variety of factors such as their job offer, work experience, education, and language skills.",
     redirectURl: "/alberta-immigration-draws",
   },
-{
-  id: 4,
-  imgSrc: "img/Blogs/Alberta-rural-immigration.png",
-  author: "Puneet Othi",
-  date: "7 December, 2024",
-  title:
-    "The Future of Alberta’s Rural Communities",
-  description:
-    "Canada’s Rural Renewal Stream has been a crucial immigration pathway designed to support rural communities, helping them grow economically and socially. It has been a vital tool for smaller towns across Canada that face labor shortages and population decline. However, recent changes in Canada’s immigration policies, particularly in Alberta, have introduced new challenges for rural areas.",
-  redirectURl: "/alberta-rural-immigration",
-}
   ];
 
   useEffect(() => {

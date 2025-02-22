@@ -4,6 +4,15 @@ import "./News.css";
 const News = () => {
   // Sample data array
   const [newsData] = useState([
+  {
+    id: 13,
+    imgSrc: "/img/Newsletter/Canada-Tightens-Immigration-Rules.png",
+    author: "Ketan Khaira",
+    date: "20 Feb, 2025",
+    description:
+      "Canada Tightens Immigration Rules: What You Need to Know",
+    redirectUrl: "/newsletter-feb-2025",
+  },
     {
       id: 12,
       imgSrc: "/img/Newsletter/Lebanon.png",

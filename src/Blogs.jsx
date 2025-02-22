@@ -6,6 +6,17 @@ const Blogs = () => {
   const [blogs] = useState([
     {
       id: 1,
+      imgSrc: "img/Blogs/made-in-canada.png",
+      author: "Ketan Khaira",
+      date: "20 Feb, 2025",
+      title:
+        "Made in Canada - By Foriegn Workers",
+      description:
+        "Canada’s economy thrives on hard work, dedication, and innovation. From bustling urban centers to small-town bakeries, many of the products we love are made possible by foreign workers who have chosen Canada as their new home. However, recent changes to immigration programs are threatening their ability to stay and continue contributing to the workforce",
+      redirectURl: "/made-in-canada",
+    },
+    {
+      id: 2,
       imgSrc: "img/Blogs/Canada's-Immigration-U-Turn.png",
       author: "Puneet Othi",
       date: "20 Jan, 2025",
@@ -16,7 +27,7 @@ const Blogs = () => {
         redirectURl: "/canada-immigration-uturn",
     },
   {
-    id: 2,
+    id: 3,
     imgSrc: "img/Blogs/Trump-Affect-Canadian-Immigration.jpg",
     author: "Ketan Khaira",
     date: "20 Jan, 2024",
@@ -27,7 +38,7 @@ const Blogs = () => {
     redirectURl: "/trump-policies-canadian-immigration",
   },
     {
-      id: 3,
+      id: 4,
       imgSrc: "img/Blogs/Alberta-immigration.png",
       author: "Mary Anne",
       date: "7 December, 2024",
@@ -38,7 +49,7 @@ const Blogs = () => {
         redirectURl: "/alberta-immigration-draws",
     },
   {
-    id: 4,
+    id: 5,
     imgSrc: "img/Blogs/Alberta-rural-immigration.png",
     author: "Puneet Othi",
     date: "7 December, 2024",
@@ -49,7 +60,7 @@ const Blogs = () => {
       redirectURl: "/alberta-rural-immigration",
   },
     {
-      id: 5,
+      id: 6,
       imgSrc: "img/Blogs/Canada-Study-Permit-New-Rules.png",
       author: "Ketan Khaira",
       date: "25 November, 2024",
@@ -61,7 +72,7 @@ const Blogs = () => {
       tags: ["pgpw", "study permit"],
     },
     {
-      id: 6,
+      id: 7,
       imgSrc: "img/Blogs/pgwp-changes.jpg",
       author: "Ketan Khaira",
       date: "16 October, 2024",
@@ -72,7 +83,7 @@ const Blogs = () => {
       redirectURl: "/pgwp-changes",
     },
     {
-      id: 7,
+      id: 8,
       imgSrc: "img/Blogs/tfwp-changes.jpg",
       author: "Ketan Khaira",
       date: "10 October, 2024",

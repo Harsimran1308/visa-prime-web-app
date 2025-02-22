@@ -45,6 +45,8 @@ import AlbertaImmigrationDraw from './Blog-Details/AlbertaImmigrationDraw';
 import AlbertaRuralImmigration from './Blog-Details/AlbertaRuralImmigration';
 import CanadaImmigrationUturn from './Blog-Details/CanadaImmigrationUturn';
 import TrumpImmigrationCanada from './Blog-Details/TrumpImmigrationCanada';
+import MadeInCanada from './Blog-Details/MadeInCanada';
+import Feb2025 from './Newsletter/Feb2025';
 
 function App() {
   return (
@@ -80,6 +82,7 @@ function App() {
         <Route path="/alberta-rural-immigration" element={<AlbertaRuralImmigration/>} />
         <Route path="/canada-immigration-uturn" element={<CanadaImmigrationUturn/>} />
         <Route path="/trump-policies-canadian-immigration" element={<TrumpImmigrationCanada/>} />
+        <Route path="/made-in-canada" element={<MadeInCanada/>} />
         {/* Newsletter links */}
         <Route path="/newsletter-november-2024" element={<November2024 />}/>
         <Route path="/newsletter-october-2024" element={<October2024 />}/>
@@ -93,6 +96,7 @@ function App() {
         <Route path="/newsletter-october-2023" element={<October2023 />} />
         <Route path="/newsletter-september-2023" element={<September2023 />} />
         <Route path="/newsletter-july-2023" element={<July2023 />} />
+        <Route path="/newsletter-feb-2025" element={<Feb2025 />} />
       </Routes>
       <Footer />
     </Router>
