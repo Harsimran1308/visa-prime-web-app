@@ -4,6 +4,15 @@ import "./News.css";
 const News = () => {
   // Sample data array
   const [newsData] = useState([
+    {
+      id: 14,
+      imgSrc: "/img/Newsletter/Rachel Bendayan New Immigration Minister.png",
+      author: "Ketan Khaira",
+      date: "20 Feb, 2025",
+      description:
+        "Canada appoints New Immigration Minister",
+      redirectUrl: "/newsletter-march-2025",
+    },
   {
     id: 13,
     imgSrc: "/img/Newsletter/Canada-Tightens-Immigration-Rules.png",

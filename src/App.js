@@ -47,6 +47,7 @@ import CanadaImmigrationUturn from './Blog-Details/CanadaImmigrationUturn';
 import TrumpImmigrationCanada from './Blog-Details/TrumpImmigrationCanada';
 import MadeInCanada from './Blog-Details/MadeInCanada';
 import Feb2025 from './Newsletter/Feb2025';
+import March2025 from './Newsletter/March2025';
 
 function App() {
   return (
@@ -97,6 +98,7 @@ function App() {
         <Route path="/newsletter-september-2023" element={<September2023 />} />
         <Route path="/newsletter-july-2023" element={<July2023 />} />
         <Route path="/newsletter-feb-2025" element={<Feb2025 />} />
+        <Route path="/newsletter-march-2025" element={<March2025 />} />
       </Routes>
       <Footer />
     </Router>
