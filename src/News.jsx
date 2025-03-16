@@ -8,7 +8,7 @@ const News = () => {
       id: 14,
       imgSrc: "/img/Newsletter/Rachel Bendayan New Immigration Minister.png",
       author: "Ketan Khaira",
-      date: "20 Feb, 2025",
+      date: "14 March, 2025",
       description:
         "Canada appoints New Immigration Minister",
       redirectUrl: "/newsletter-march-2025",
