@@ -105,6 +105,11 @@ const Footer = () => {
                             <span className="text-white" style={{display:"inline-flex", marginLeft:"5px"}}>Developed By<a className="article-navigation-link" href="https://www.singhharsimran.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:"underline",marginLeft:"5px"}}>Harsimran Singh</a></span>
                         </div>
                     </div>
+                    <div className="row g-4 align-items-center">
+                        <div className="col-md-6 text-center" style={{width:"100%"}}>
+                            <span className="text-white" style={{display:"inline-flex"}}><a className="text-white"><a href="https://www.freepik.com/free-ai-image/canada-day-celebration-with-maple-leaf-symbol_186551720.htm#fromView=image_search_similar&page=1&position=30&uuid=9913abd9-5662-4b13-a723-15ab40303619&query=canada+"/>All displayed Images by freepik</a></span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
