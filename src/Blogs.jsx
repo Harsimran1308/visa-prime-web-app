@@ -6,6 +6,28 @@ const Blogs = () => {
   const [blogs] = useState([
     {
       id: 1,
+      imgSrc: "img/Blogs/Federal Immigration Caps Raise Alarms.png",
+      author: "Ketan Khaira",
+      date: "20 April, 2025",
+      title:
+        "Federal Immigration Caps Raise Alarms",
+      description:
+        "Pierre Poilievre and Mark Carney appear to be approaching immigration differently on the campaign trail—but beneath the rhetoric, both are backing a continued slowdown in immigration levels, including cuts to temporary foreign workers and international students.",
+      redirectURl: "/federal-immigration-caps",
+    },
+    {
+      id: 2,
+      imgSrc: "img/Blogs/Ontario Colleges Cut Programs Amid Growing Financial Crisis.png",
+      author: "Puneet Othi",
+      date: "20 April, 2025",
+      title:
+        "Ontario Colleges Cut Programs",
+      description:
+        "Public colleges across Ontario are making urgent and sweeping program cuts as a financial crisis deepens across the sector. Dozens of diploma and certificate programs are being suspended—from business and creative arts to tourism, technology, and esthetics—as institutions like Algonquin, George Brown, Mohawk, St. Lawrence, and Centennial move to rein in costs before the 2025-26 budget year.",
+      redirectURl: "/canadian-colleges-cut-programs",
+    },
+    {
+      id: 3,
       imgSrc: "img/Blogs/made-in-canada.png",
       author: "Ketan Khaira",
       date: "20 Feb, 2025",
@@ -16,7 +38,7 @@ const Blogs = () => {
       redirectURl: "/made-in-canada",
     },
     {
-      id: 2,
+      id: 4,
       imgSrc: "img/Blogs/Canada's-Immigration-U-Turn.png",
       author: "Puneet Othi",
       date: "20 Jan, 2025",
@@ -27,7 +49,7 @@ const Blogs = () => {
         redirectURl: "/canada-immigration-uturn",
     },
   {
-    id: 3,
+    id: 5,
     imgSrc: "img/Blogs/Trump-Affect-Canadian-Immigration.jpg",
     author: "Ketan Khaira",
     date: "20 Jan, 2024",
@@ -38,7 +60,7 @@ const Blogs = () => {
     redirectURl: "/trump-policies-canadian-immigration",
   },
     {
-      id: 4,
+      id: 6,
       imgSrc: "img/Blogs/Alberta-immigration.png",
       author: "Mary Anne",
       date: "7 December, 2024",
@@ -49,7 +71,7 @@ const Blogs = () => {
         redirectURl: "/alberta-immigration-draws",
     },
   {
-    id: 5,
+    id: 7,
     imgSrc: "img/Blogs/Alberta-rural-immigration.png",
     author: "Puneet Othi",
     date: "7 December, 2024",
@@ -60,7 +82,7 @@ const Blogs = () => {
       redirectURl: "/alberta-rural-immigration",
   },
     {
-      id: 6,
+      id: 8,
       imgSrc: "img/Blogs/Canada-Study-Permit-New-Rules.png",
       author: "Ketan Khaira",
       date: "25 November, 2024",
@@ -72,7 +94,7 @@ const Blogs = () => {
       tags: ["pgpw", "study permit"],
     },
     {
-      id: 7,
+      id: 9,
       imgSrc: "img/Blogs/pgwp-changes.jpg",
       author: "Ketan Khaira",
       date: "16 October, 2024",
@@ -83,7 +105,7 @@ const Blogs = () => {
       redirectURl: "/pgwp-changes",
     },
     {
-      id: 8,
+      id: 10,
       imgSrc: "img/Blogs/tfwp-changes.jpg",
       author: "Ketan Khaira",
       date: "10 October, 2024",

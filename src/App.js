@@ -48,6 +48,8 @@ import TrumpImmigrationCanada from './Blog-Details/TrumpImmigrationCanada';
 import MadeInCanada from './Blog-Details/MadeInCanada';
 import Feb2025 from './Newsletter/Feb2025';
 import March2025 from './Newsletter/March2025';
+import FederalImmigrationCap from './Blog-Details/FederalImmigrationCap';
+import CanadianCollegeCrisis from './Blog-Details/CanadianCollegeCrisis';
 
 function App() {
   return (
@@ -84,6 +86,8 @@ function App() {
         <Route path="/canada-immigration-uturn" element={<CanadaImmigrationUturn/>} />
         <Route path="/trump-policies-canadian-immigration" element={<TrumpImmigrationCanada/>} />
         <Route path="/made-in-canada" element={<MadeInCanada/>} />
+        <Route path="/federal-immigration-caps" element={<FederalImmigrationCap/>} />
+        <Route path="/canadian-colleges-cut-programs" element={<CanadianCollegeCrisis/>} />
         {/* Newsletter links */}
         <Route path="/newsletter-november-2024" element={<November2024 />}/>
         <Route path="/newsletter-october-2024" element={<October2024 />}/>
