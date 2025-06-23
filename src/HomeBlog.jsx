@@ -6,6 +6,17 @@ const HomeBlog = () => {
   const blogData = [
     {
       id: 1,
+      imgSrc: "img/Blogs/Canada’s Population growth rate slashed to Zero.png",
+      author: "Ketan Khaira",
+      date: "20 June, 2025",
+      title:
+        "Canada’s Population growth rate slashed to Zero",
+      description:
+        "Canada’s Immigration Slowdown: A Turning Point for Population Growth and Policy Reform In a significant shift from recent trends, Canada’s population growth has sharply decelerated in the first quarter of the year, marking the end of the post-pandemic immigration boom that had pushed",
+      redirectURl: "/canada-population-growth-stalled",
+    },
+    {
+      id: 2,
       imgSrc: "img/Blogs/Federal Immigration Caps Raise Alarms.png",
       author: "Ketan Khaira",
       date: "20 April, 2025",
@@ -16,7 +27,7 @@ const HomeBlog = () => {
       redirectURl: "/federal-immigration-caps",
     },
     {
-      id: 2,
+      id: 3,
       imgSrc: "img/Blogs/Ontario Colleges Cut Programs Amid Growing Financial Crisis.png",
       author: "Puneet Othi",
       date: "20 April, 2025",
@@ -27,7 +38,7 @@ const HomeBlog = () => {
       redirectURl: "/canadian-colleges-cut-programs",
     },
     {
-      id: 3,
+      id: 4,
       imgSrc: "img/Blogs/made-in-canada.png",
       author: "Ketan Khaira",
       date: "20 Feb, 2025",
@@ -36,17 +47,6 @@ const HomeBlog = () => {
       description:
         "Canada’s economy thrives on hard work, dedication, and innovation. From bustling urban centers to small-town bakeries, many of the products we love are made possible by foreign workers who have chosen Canada as their new home. However, recent changes to immigration programs are threatening their ability to stay and continue contributing to the workforce",
       redirectURl: "/made-in-canada",
-    },
-    {
-      id: 4,
-      imgSrc: "img/Blogs/Canada's-Immigration-U-Turn.png",
-      author: "Puneet Othi",
-      date: "20 Jan, 2025",
-      title:
-        "Canada's Immigration U-Turn",
-      description:
-        "On July 26, 2023, Marc Miller assumed the position of Minister of Immigration, Refugees and Citizenship after replacing Sean Fraser. His appointment marked the beginning of a series of significant changes in Canada’s immigration policies. Below is a recap of the key actions and shifts that have taken place under his leadership, illustrating how swiftly these changes were implemented:",
-      redirectURl: "/canada-immigration-uturn",
     }
   ];
 

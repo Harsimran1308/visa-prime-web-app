@@ -5,6 +5,17 @@ const Blogs = () => {
   // Sample data array
   const [blogs] = useState([
     {
+      id: 11,
+      imgSrc: "img/Blogs/Canada’s Population growth rate slashed to Zero.png",
+      author: "Ketan Khaira",
+      date: "20 June, 2025",
+      title:
+        "Canada’s Population growth rate slashed to Zero",
+      description:
+        "Canada’s Immigration Slowdown: A Turning Point for Population Growth and Policy Reform In a significant shift from recent trends, Canada’s population growth has sharply decelerated in the first quarter of the year, marking the end of the post-pandemic immigration boom that had pushed",
+      redirectURl: "/canada-population-growth-stalled",
+    },
+    {
       id: 1,
       imgSrc: "img/Blogs/Federal Immigration Caps Raise Alarms.png",
       author: "Ketan Khaira",

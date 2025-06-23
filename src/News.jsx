@@ -5,6 +5,15 @@ const News = () => {
   // Sample data array
   const [newsData] = useState([
     {
+      id: 15,
+      imgSrc: "/img/Newsletter/New Brunswick Makes Bold Immigration Moves to Tackle Labour Shortages.png",
+      author: "Ketan Khaira",
+      date: "20 June, 2025",
+      description:
+        "New Brunswick's new Immigration Moves",
+      redirectUrl: "/newsletter-june-2025",
+    },
+    {
       id: 14,
       imgSrc: "/img/Newsletter/Rachel Bendayan New Immigration Minister.png",
       author: "Ketan Khaira",

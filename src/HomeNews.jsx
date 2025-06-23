@@ -6,6 +6,15 @@ const HomeNews = () => {
   const newsData = [
     {
       id: 1,
+      imgSrc: "/img/Newsletter/New Brunswick Makes Bold Immigration Moves to Tackle Labour Shortages.png",
+      author: "Ketan Khaira",
+      date: "20 June, 2025",
+      description:
+        "New Brunswick's new Immigration Moves",
+      redirectUrl: "/newsletter-june-2025",
+    },
+    {
+      id: 2,
       imgSrc: "/img/Newsletter/Rachel Bendayan New Immigration Minister.png",
       author: "Ketan Khaira",
       date: "14 March, 2025",
@@ -14,7 +23,7 @@ const HomeNews = () => {
       redirectUrl: "/newsletter-march-2025",
     },
     {
-      id: 2,
+      id: 3,
       imgSrc: "/img/Newsletter/Canada-Tightens-Immigration-Rules.png",
       author: "Ketan Khaira",
       date: "20 Feb, 2025",
@@ -23,22 +32,13 @@ const HomeNews = () => {
       redirectUrl: "/newsletter-feb-2025",
     },
     {
-      id: 3,
+      id: 4,
       imgSrc: "/img/Newsletter/Lebanon.png",
       author: "Ketan Khaira",
       date: "1 November, 2024",
       description:
         "Canada’s New Immigration Measures to Support Those Affected by the Lebanon Crisis",
       redirectUrl: "/newsletter-november-2024",
-    },
-    {
-      id: 4,
-      imgSrc: "/img/Newsletter/immigration-changes-2024.jpg",
-      author: "Puneet Othi",
-      date: "25 October, 2024",
-      description:
-        "Canada Announces Changes to Immigration Levels for 2025-2027",
-      redirectUrl: "/newsletter-october-2024",
     },
   ];
 
