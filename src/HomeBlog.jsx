@@ -6,6 +6,17 @@ const HomeBlog = () => {
   const blogData = [
     {
       id: 1,
+      imgSrc: "img/Blogs/Key Developments Express Entry_Funds_LMIA.png",
+      author: "Ketan Khaira",
+      date: "25 July, 2025",
+      title:
+        "Key Developments: Express Entry Funds Adjustment",
+      description:
+        "Express Entry: Proof of Funds Requirements Increased as of July 7 Immigration, Refugees and Citizenship Canada (IRCC) has raised the minimum settlement funds required for two of its main immigration programs: the Federal",
+      redirectURl: "/key-developments-express-entry-fund-adjustements",
+    },
+    {
+      id: 2,
       imgSrc: "img/Blogs/Canada’s Population growth rate slashed to Zero.png",
       author: "Ketan Khaira",
       date: "20 June, 2025",
@@ -16,7 +27,7 @@ const HomeBlog = () => {
       redirectURl: "/canada-population-growth-stalled",
     },
     {
-      id: 2,
+      id: 3,
       imgSrc: "img/Blogs/Federal Immigration Caps Raise Alarms.png",
       author: "Ketan Khaira",
       date: "20 April, 2025",
@@ -27,7 +38,7 @@ const HomeBlog = () => {
       redirectURl: "/federal-immigration-caps",
     },
     {
-      id: 3,
+      id: 4,
       imgSrc: "img/Blogs/Ontario Colleges Cut Programs Amid Growing Financial Crisis.png",
       author: "Puneet Othi",
       date: "20 April, 2025",
@@ -36,17 +47,6 @@ const HomeBlog = () => {
       description:
         "Public colleges across Ontario are making urgent and sweeping program cuts as a financial crisis deepens across the sector. Dozens of diploma and certificate programs are being suspended—from business and creative arts to tourism, technology, and esthetics—as institutions like Algonquin, George Brown, Mohawk, St. Lawrence, and Centennial move to rein in costs before the 2025-26 budget year.",
       redirectURl: "/canadian-colleges-cut-programs",
-    },
-    {
-      id: 4,
-      imgSrc: "img/Blogs/made-in-canada.png",
-      author: "Ketan Khaira",
-      date: "20 Feb, 2025",
-      title:
-        "Made in Canada - By Foriegn Workers",
-      description:
-        "Canada’s economy thrives on hard work, dedication, and innovation. From bustling urban centers to small-town bakeries, many of the products we love are made possible by foreign workers who have chosen Canada as their new home. However, recent changes to immigration programs are threatening their ability to stay and continue contributing to the workforce",
-      redirectURl: "/made-in-canada",
     }
   ];
 

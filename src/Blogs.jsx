@@ -4,6 +4,18 @@ import "./Blogs.css";
 const Blogs = () => {
   // Sample data array
   const [blogs] = useState([
+    
+    {
+      id: 12,
+      imgSrc: "img/Blogs/Key Developments Express Entry_Funds_LMIA.png",
+      author: "Ketan Khaira",
+      date: "25 July, 2025",
+      title:
+        "Key Developments: Express Entry Funds Adjustment",
+      description:
+        "Express Entry: Proof of Funds Requirements Increased as of July 7 Immigration, Refugees and Citizenship Canada (IRCC) has raised the minimum settlement funds required for two of its main immigration programs: the Federal",
+      redirectURl: "/key-developments-express-entry-fund-adjustements",
+    },
     {
       id: 11,
       imgSrc: "img/Blogs/Canada’s Population growth rate slashed to Zero.png",

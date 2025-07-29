@@ -52,6 +52,8 @@ import FederalImmigrationCap from './Blog-Details/FederalImmigrationCap';
 import CanadianCollegeCrisis from './Blog-Details/CanadianCollegeCrisis';
 import June2025 from './Newsletter/June2025';
 import CanadaPopulationGrowth from './Blog-Details/CanadaPopulationGrowth';
+import ExpressEntryFundAdjustements from './Blog-Details/ExpressEntryFundAdjustements';
+import July2025 from './Newsletter/July2025';
 
 function App() {
   return (
@@ -91,6 +93,7 @@ function App() {
         <Route path="/federal-immigration-caps" element={<FederalImmigrationCap/>} />
         <Route path="/canadian-colleges-cut-programs" element={<CanadianCollegeCrisis/>} />
         <Route path="/canada-population-growth-stalled" element={<CanadaPopulationGrowth/>} />
+        <Route path="/key-developments-express-entry-fund-adjustements" element={<ExpressEntryFundAdjustements/>} />
         {/* Newsletter links */}
         <Route path="/newsletter-november-2024" element={<November2024 />}/>
         <Route path="/newsletter-october-2024" element={<October2024 />}/>
@@ -107,6 +110,7 @@ function App() {
         <Route path="/newsletter-feb-2025" element={<Feb2025 />} />
         <Route path="/newsletter-march-2025" element={<March2025 />} />
         <Route path="/newsletter-june-2025" element={<June2025 />} />
+        <Route path="/newsletter-july-2025" element={<July2025 />} />
       </Routes>
       <Footer />
     </Router>
