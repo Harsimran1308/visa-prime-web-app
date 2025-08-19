@@ -6,6 +6,17 @@ const HomeBlog = () => {
   const blogData = [
     {
       id: 1,
+      imgSrc: "img/Blogs/End of Federal Hotel Funding for Asylum Seekers.png",
+      author: "Ketan Khaira",
+      date: "18 August, 2025",
+      title:
+        "End of Federal Hotel Funding for Asylum Seekers",
+      description:
+        "The federal government will stop funding hotel rooms for asylum seekers starting September 30, 2025",
+      redirectURl: "/end-of-federal-hotel-funding-for-asylum-seeker",
+    },
+    {
+      id: 2,
       imgSrc: "img/Blogs/Key Developments Express Entry_Funds_LMIA.png",
       author: "Ketan Khaira",
       date: "25 July, 2025",
@@ -16,7 +27,7 @@ const HomeBlog = () => {
       redirectURl: "/key-developments-express-entry-fund-adjustements",
     },
     {
-      id: 2,
+      id: 3,
       imgSrc: "img/Blogs/Canada’s Population growth rate slashed to Zero.png",
       author: "Ketan Khaira",
       date: "20 June, 2025",
@@ -27,7 +38,7 @@ const HomeBlog = () => {
       redirectURl: "/canada-population-growth-stalled",
     },
     {
-      id: 3,
+      id: 4,
       imgSrc: "img/Blogs/Federal Immigration Caps Raise Alarms.png",
       author: "Ketan Khaira",
       date: "20 April, 2025",
@@ -36,17 +47,6 @@ const HomeBlog = () => {
       description:
         "Pierre Poilievre and Mark Carney appear to be approaching immigration differently on the campaign trail—but beneath the rhetoric, both are backing a continued slowdown in immigration levels, including cuts to temporary foreign workers and international students.",
       redirectURl: "/federal-immigration-caps",
-    },
-    {
-      id: 4,
-      imgSrc: "img/Blogs/Ontario Colleges Cut Programs Amid Growing Financial Crisis.png",
-      author: "Puneet Othi",
-      date: "20 April, 2025",
-      title:
-        "Ontario Colleges Cut Programs",
-      description:
-        "Public colleges across Ontario are making urgent and sweeping program cuts as a financial crisis deepens across the sector. Dozens of diploma and certificate programs are being suspended—from business and creative arts to tourism, technology, and esthetics—as institutions like Algonquin, George Brown, Mohawk, St. Lawrence, and Centennial move to rein in costs before the 2025-26 budget year.",
-      redirectURl: "/canadian-colleges-cut-programs",
     }
   ];
 

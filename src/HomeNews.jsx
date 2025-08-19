@@ -6,6 +6,15 @@ const HomeNews = () => {
   const newsData = [
     {
       id: 1,
+      imgSrc: "/img/Newsletter/New Express Entry Categories proposed.png",
+      author: "Ketan Khaira",
+      date: "18 August, 2025",
+      description:
+        "New Express Entry Categories Proposed for 2026",
+      redirectUrl: "/newsletter-august-2025",
+    },
+    {
+      id: 2,
       imgSrc: "/img/Newsletter/Updates on Family Sponsorship_Quebec Programs and Policy Shifts.png",
       author: "Ketan Khaira",
       date: "25 July, 2025",
@@ -14,7 +23,7 @@ const HomeNews = () => {
       redirectUrl: "/newsletter-july-2025",
     },
     {
-      id: 2,
+      id: 3,
       imgSrc: "/img/Newsletter/New Brunswick Makes Bold Immigration Moves to Tackle Labour Shortages.png",
       author: "Ketan Khaira",
       date: "20 June, 2025",
@@ -23,22 +32,13 @@ const HomeNews = () => {
       redirectUrl: "/newsletter-june-2025",
     },
     {
-      id: 3,
+      id: 4,
       imgSrc: "/img/Newsletter/Rachel Bendayan New Immigration Minister.png",
       author: "Ketan Khaira",
       date: "14 March, 2025",
       description:
         "Canada appoints New Immigration Minister",
       redirectUrl: "/newsletter-march-2025",
-    },
-    {
-      id: 4,
-      imgSrc: "/img/Newsletter/Canada-Tightens-Immigration-Rules.png",
-      author: "Ketan Khaira",
-      date: "20 Feb, 2025",
-      description:
-        "Canada Tightens Immigration Rules: What You Need to Know",
-      redirectUrl: "/newsletter-feb-2025",
     }
   ];
 

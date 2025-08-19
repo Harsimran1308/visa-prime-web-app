@@ -4,7 +4,17 @@ import "./Blogs.css";
 const Blogs = () => {
   // Sample data array
   const [blogs] = useState([
-    
+    {
+      id: 13,
+      imgSrc: "img/Blogs/End of Federal Hotel Funding for Asylum Seekers.png",
+      author: "Ketan Khaira",
+      date: "18 August, 2025",
+      title:
+        "End of Federal Hotel Funding for Asylum Seekers",
+      description:
+        "The federal government will stop funding hotel rooms for asylum seekers starting September 30, 2025",
+      redirectURl: "/end-of-federal-hotel-funding-for-asylum-seeker",
+    },
     {
       id: 12,
       imgSrc: "img/Blogs/Key Developments Express Entry_Funds_LMIA.png",
